@@ -1,0 +1,24 @@
+---
+pagetitle: "Teaching – RoPhi Lab"
+---
+
+Courses taught or co-taught by lab members. Syllabi and materials will be linked when available.
+
+## Current Courses
+
+::: {.course-card}
+### *Course title TBD*
+
+**Term:** TBD · **Instructor:** Yonghyeon Lee
+
+Course description and syllabus will be posted here.
+:::
+
+## Past Courses
+
+*Past offerings will be listed here.*
+
+## Student Resources
+
+- Prospective students: see [People](people.qmd) and [Contact](contact.qmd)
+- Research opportunities may be available for qualified undergraduates and graduate students

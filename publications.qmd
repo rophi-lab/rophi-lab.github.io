@@ -1,0 +1,316 @@
+---
+pagetitle: "Publications – RoPhi Lab"
+---
+
+<p class="pub-legend"><span class="pub-legend-mark">&#42;</span> denotes equal contribution.</p>
+
+## 2026
+
+<ul class="pub-list">
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/rl_reactive.webm" autoplay loop muted playsinline aria-label="RLReactive preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Learning Reactive Dexterous Grasping via Hierarchical Task-Space RL Planning and Joint-Space QP Control</div>
+<div class="pub-venue">Preprint</div>
+<div class="pub-authors">Ho Jae Lee, Yonghyeon Lee, Alexander Alexiev, Tzu-Yuan Lin, Se Hwan Jeon, Sangbae Kim</div>
+<div class="pub-links pub-links--todo"><span>arXiv</span><span class="pub-sep">·</span><span>Video</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/dreamgrasp.webm" autoplay loop muted playsinline aria-label="DreamGrasp preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">DreamGrasp: Zero-Shot 3D Multi-Object Reconstruction from Partial-View Images for Robotic Manipulation</div>
+<div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2026</div>
+<div class="pub-authors">Young Hun Kim, Seungyeon Kim, Yonghyeon Lee, Frank Chongwoo Park</div>
+<div class="pub-links pub-links--todo"><span>arXiv</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/point2pose.webm" autoplay loop muted playsinline aria-label="Point2Pose preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Point2Pose: Occlusion-Recovering 6D Pose Tracking and 3D Reconstruction for Multiple Unknown Objects Via 2D Point Trackers</div>
+<div class="pub-venue">Preprint</div>
+<div class="pub-authors">Tzu-Yuan Lin, Ho Jae Lee, Kevin Doherty, Yonghyeon Lee, Sangbae Kim</div>
+<div class="pub-links pub-links--todo"><span>arXiv</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/anycam.webm" autoplay loop muted playsinline aria-label="AnyCamVLA preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models</div>
+<div class="pub-venue">Preprint</div>
+<div class="pub-authors">Hyeongjun Heo, Seungyeon Woo, Sang Min Kim, Junho Kim, Junho Lee, Yonghyeon Lee, Young Min Kim</div>
+<div class="pub-links pub-links--todo"><span>arXiv</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/reflex.webm" autoplay loop muted playsinline aria-label="Tactile-reactive grasp adjustment preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">High-Bandwidth Tactile-Reactive Control for Grasp Adjustment</div>
+<div class="pub-venue">International Conference on Robotics and Automation (ICRA), 2026</div>
+<div class="pub-authors">Yonghyeon Lee&#42;, Tzu-Yuan Lin&#42;, Alexander Alexiev, Sangbae Kim</div>
+<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>arXiv</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/reactive.webm" autoplay loop muted playsinline aria-label="Reactive grasping preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Hierarchical Reactive Grasping via Task-Space Velocity Fields and Joint-Space Quadratic Programming</div>
+<div class="pub-venue">International Conference on Robotics and Automation (ICRA), 2026</div>
+<div class="pub-authors">Yonghyeon Lee&#42;, Tzu-Yuan Lin&#42;, Alexander Alexiev, Sangbae Kim</div>
+<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>arXiv</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/dmmp.webm" autoplay loop muted playsinline aria-label="DMMP preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Differentiable Motion Manifold Primitives for Reactive Motion Generation under Kinodynamic Constraints</div>
+<div class="pub-venue">International Conference on Robotics and Automation (ICRA), 2026</div>
+<div class="pub-authors">Yonghyeon Lee</div>
+<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>arXiv</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/point2act.webm" autoplay loop muted playsinline aria-label="point2act preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Point2Act: Efficient 3D Distillation of Multimodal LLMs for Zero-Shot Context-Aware Grasping</div>
+<div class="pub-venue">International Conference on Robotics and Automation (ICRA), 2026</div>
+<div class="pub-authors">Sang Min Kim, Hyeongjun Heo, Junho Kim, Yonghyeon Lee, Young Min Kim</div>
+<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>arXiv</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/lego.webm" autoplay loop muted playsinline aria-label="LEGO preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">LEGO: Latent-space Exploration for Geometry-aware Optimization of Humanoid Kinematic Design</div>
+<div class="pub-venue">International Conference on Robotics and Automation (ICRA), 2026</div>
+<div class="pub-authors">JiHwan Yoon, Taemoon Jeong, Jeongeun Park, Chanwoo Kim, Jaewoon Kwon, Yonghyeon Lee, Kyungjae Lee, Sungjoon Choi</div>
+<div class="pub-links pub-links--todo"><span>Project page</span></div>
+</div>
+</li>
+</ul>
+
+## 2025
+
+<ul class="pub-list">
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/bcsdm.webm" autoplay loop muted playsinline aria-label="BCSDM preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Behavior-Controllable Stable Dynamics Models on Riemannian Configuration Manifolds</div>
+<div class="pub-venue">IEEE Transactions on Robotics (T-RO), 2025</div>
+<div class="pub-authors">Byeongho Lee&#42;, Yonghyeon Lee&#42;, Junsu Ha&#42;, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>IEEE Xplore</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/ssplat.webm" autoplay loop muted playsinline aria-label="SSPLAT preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">ScrewSplat: An End-to-End Method for Articulated Object Recognition</div>
+<div class="pub-venue">Conference on Robot Learning (CoRL), 2025</div>
+<div class="pub-authors">Seungyeon Kim, Junsu Ha, Young Hun Kim, Yonghyeon Lee, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>arXiv</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/mmfp.webm" autoplay loop muted playsinline aria-label="MMFP preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Motion Manifold Flow Primitives for Task-Conditioned Trajectory Generation under Complex Task-Motion Dependencies</div>
+<div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2025</div>
+<div class="pub-authors">Yonghyeon Lee, Byeongho Lee, Seungyeon Kim, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>IEEE Xplore</span><span class="pub-sep">·</span><span>Project page</span><span class="pub-sep">·</span><span>arXiv</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/isofunc.webm" autoplay loop muted playsinline aria-label="IsoFunc preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Isometric Regularization for Manifolds of Functional Data</div>
+<div class="pub-venue">International Conference on Learning Representations (ICLR), 2025</div>
+<div class="pub-authors">Hyeongjun Heo, Seonghun Oh, Jae Yong Lee, Young Min Kim, Yonghyeon Lee</div>
+<div class="pub-links pub-links--todo"><span>Project page</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/divpol.webm" autoplay loop muted playsinline aria-label="DivPol preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Diverse Policy Learning via Random Obstacle Deployment for Zero-Shot Adaptation</div>
+<div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2025</div>
+<div class="pub-authors">Seokjin Choi&#42;, Yonghyeon Lee&#42;, Seungyeon Kim, Che-Sang Park, Himchan Hwang, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>IEEE Xplore</span><span class="pub-sep">·</span><span>Project page</span></div>
+</div>
+</li>
+</ul>
+
+## 2024
+
+<ul class="pub-list">
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/t2sqnet.webm" autoplay loop muted playsinline aria-label="T2SQNET preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">T2SQNet: A Recognition Model for Manipulating Partially Observed Transparent Tableware Objects</div>
+<div class="pub-venue">Conference on Robot Learning (CoRL), 2024</div>
+<div class="pub-authors">Young Hun Kim&#42;, Seungyeon Kim&#42;, Yonghyeon Lee, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/equigraspflow.webm" autoplay loop muted playsinline aria-label="EquiGraspFlow preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">EquiGraspFlow: SE(3)-Equivariant 6-DoF Grasp Pose Generative Flows</div>
+<div class="pub-venue">Conference on Robot Learning (CoRL), 2024</div>
+<div class="pub-authors">Byeongdo Lim&#42;, Jongmin Kim&#42;, Jihwan Kim, Yonghyeon Lee, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/mmppp.webm" autoplay loop muted playsinline aria-label="MMP++ preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">MMP++: Motion Manifold Primitives with Parametric Curve Models</div>
+<div class="pub-venue">IEEE Transactions on Robotics (T-RO), 2024</div>
+<div class="pub-authors">Yonghyeon Lee</div>
+<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>IEEE Xplore</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/ggae.webm" autoplay loop muted playsinline aria-label="GGAE preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Graph Geometry-Preserving Autoencoders</div>
+<div class="pub-venue">International Conference on Machine Learning (ICML), 2024</div>
+<div class="pub-authors">Jungbin Lim&#42;, Jihwan Kim&#42;, Yonghyeon Lee, Cheongjae Jang, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+</div>
+</li>
+</ul>
+
+## 2023
+
+<ul class="pub-list">
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/nfl.webm" autoplay loop muted playsinline aria-label="NFL preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">NFL: Normal Field Learning for 6-DoF Grasping of Transparent Objects</div>
+<div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2023</div>
+<div class="pub-authors">Junho Lee, Sang Min Kim, Yonghyeon Lee, Young Min Kim</div>
+<div class="pub-links pub-links--todo"><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Poster</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/geomae.webm" autoplay loop muted playsinline aria-label="GeomAE preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">A Geometric Perspective on Autoencoders</div>
+<div class="pub-venue">arXiv, 2023 (summary of Ph.D. thesis)</div>
+<div class="pub-authors">Yonghyeon Lee</div>
+<div class="pub-links pub-links--todo"><span>arXiv</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/emmp.webm" autoplay loop muted playsinline aria-label="EMMP preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Equivariant Motion Manifold Primitives</div>
+<div class="pub-venue">Conference on Robot Learning (CoRL), 2023</div>
+<div class="pub-authors">Byeongho Lee&#42;, Yonghyeon Lee&#42;, Seungyeon Kim, Minjun Son, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/mechsearch.webm" autoplay loop muted playsinline aria-label="MechSearch preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Leveraging 3D Reconstruction for Mechanical Search on Cluttered Shelves</div>
+<div class="pub-venue">Conference on Robot Learning (CoRL), 2023</div>
+<div class="pub-authors">Seungyeon Kim&#42;, Young Hun Kim&#42;, Yonghyeon Lee, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/curvature.webm" autoplay loop muted playsinline aria-label="Curvature preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">On Explicit Curvature Regularization in Deep Generative Models</div>
+<div class="pub-venue">TAG-ML Workshop, ICML 2023</div>
+<div class="pub-authors">Yonghyeon Lee, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>arXiv</span><span class="pub-sep">·</span><span>OpenReview</span><span class="pub-sep">·</span><span>Poster</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/grae.webm" autoplay loop muted playsinline aria-label="GRAE preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Geometrically Regularized Autoencoders for Non-Euclidean Data</div>
+<div class="pub-venue">International Conference on Learning Representations (ICLR), 2023</div>
+<div class="pub-authors">Cheongjae Jang, Yonghyeon Lee, Yung-Kyun Noh, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>PDF</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/thesis.webm" autoplay loop muted playsinline aria-label="Thesis preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Geometric Methods for Manifold Representation Learning</div>
+<div class="pub-venue">Ph.D. Thesis, Seoul National University</div>
+<div class="pub-authors">Yonghyeon Lee (supervisor: Frank C. Park)</div>
+<div class="pub-links pub-links--todo"><span>PDF</span><span class="pub-sep">·</span><span>Abstract</span><span class="pub-sep">·</span><span>Slides</span></div>
+</div>
+</li>
+</ul>
+
+## 2022
+
+<ul class="pub-list">
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/pushing.webm" autoplay loop muted playsinline aria-label="Pushing preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">SE(2)-Equivariant Pushing Dynamics Models for Tabletop Object Manipulations</div>
+<div class="pub-venue">Conference on Robot Learning (CoRL), 2022 (oral, 6.5%)</div>
+<div class="pub-authors">Seungyeon Kim, Byeongdo Lim, Yonghyeon Lee, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>Proceedings</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/dsqnet.webm" autoplay loop muted playsinline aria-label="DSQNet preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">DSQNet: A Deformable Model-Based Supervised Learning Algorithm for Grasping Unknown Occluded Objects</div>
+<div class="pub-venue">IEEE Transactions on Automation Science and Engineering (T-ASE), 2022</div>
+<div class="pub-authors">Seungyeon Kim&#42;, Taegyun Ahn&#42;, Yonghyeon Lee, Jihwan Kim, Michael Yu Wang, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>Code</span><span class="pub-sep">·</span><span>IEEE Xplore</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/smf.webm" autoplay loop muted playsinline aria-label="SMF preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">A Statistical Manifold Framework for Point Cloud Data</div>
+<div class="pub-venue">International Conference on Machine Learning (ICML), 2022</div>
+<div class="pub-authors">Yonghyeon Lee&#42;, Seungyeon Kim&#42;, Jinwon Choi, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>PDF</span><span class="pub-sep">·</span><span>Proceedings</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Slides</span><span class="pub-sep">·</span><span>Poster</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/regae.webm" autoplay loop muted playsinline aria-label="RegAE preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Regularized Autoencoders for Isometric Representation Learning</div>
+<div class="pub-venue">International Conference on Learning Representations (ICLR), 2022</div>
+<div class="pub-authors">Yonghyeon Lee, Sangwoong Yoon, Minjun Son, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>PDF</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Slides</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+</div>
+</li>
+</ul>
+
+## 2021
+
+<ul class="pub-list">
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/nrae.webm" autoplay loop muted playsinline aria-label="NRAE preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Neighborhood Reconstructing Autoencoders</div>
+<div class="pub-venue">Conference on Neural Information Processing Systems (NeurIPS), 2021</div>
+<div class="pub-authors">Yonghyeon Lee, Hyukjun Kwon, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>PDF</span><span class="pub-sep">·</span><span>Proceedings</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Slides</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/imat.webm" autoplay loop muted playsinline aria-label="IMAT preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">IMAT: The Iterative Medial Axis Transform</div>
+<div class="pub-venue">Computer Graphics Forum, 2021</div>
+<div class="pub-authors">Yonghyeon Lee, Jonghyuk Baek, Youngmin Kim, Frank C. Park</div>
+<div class="pub-links pub-links--todo"><span>PDF</span><span class="pub-sep">·</span><span>Article</span></div>
+</div>
+</li>
+</ul>
+
+---

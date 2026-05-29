@@ -1,0 +1,93 @@
+---
+pagetitle: "RoPhi Lab"
+page-layout: article
+bibliography: references.bib
+csl: https://www.zotero.org/styles/apa
+link-citations: true
+reference-section-title: References
+---
+
+::: {.hero}
+
+::: {.hero-intro}
+
+::: {.hero-eyebrow}
+Robotics and Physical Artificial Intelligence Lab
+:::
+
+```{=html}
+<p class="hero-title">Ro<span class="hero-phi">Φ</span> Lab</p>
+```
+
+::: {.hero-pronunciation}
+Also written **RoPhi** · pronounced *ROH-fai*
+:::
+
+:::
+
+::: {.hero-lead}
+**Ro$\Phi$ Lab** aims to develop *general robot intelligence*—robots that can perceive, plan, act, and adapt intelligently in the physical world. Our approach integrates learning with priors from physics, geometry, and control to achieve data-efficient, robust, and generalizable robotic behavior.
+:::
+
+::: {.hero-meta}
+Principal Investigator: [Yonghyeon Lee](people.qmd#principal-investigator)  
+:::
+
+:::
+
+## Research
+
+The idea that **intelligence must have a body**, articulated in Brooks's early 1990s work [@brooks1990elephants], challenged the traditional view of intelligence as disembodied reasoning and stressed its grounding in real-world interaction. @pfeifer2001understanding later formalized this perspective as **embodied intelligence**. Brooks's *subsumption architecture* [@brooks1986robust] showed that intelligent behavior can emerge from *layered, loosely coupled modules* running *asynchronously and in parallel*, with higher layers shaping—but not micromanaging—the reactive layers below. *We take this layered, modular structure as a blueprint for general embodied intelligence.*
+
+@fig-modular-hierarchy illustrates an exemplar hierarchical, modular control architecture for robotic manipulation.
+Because each layer operates at its own timescale, the stack stays robust: fast low-level controllers need not wait for slower modules, so delay or noise in one layer is less likely to destabilize the system, while higher layers can still subsume lower ones when needed. The modular design also improves explainability, debuggability, and scalability.
+
+::: {.research-figures}
+![Modular hierarchical control architecture.](assets/modular_hierarchical_approach_V2.png){#fig-modular-hierarchy fig-cap="*Subsumption*-style layers: perception, reasoning, planning, control, and actuation." fig-alt="Diagram of a modular hierarchical robot control architecture"}
+:::
+
+Our research agenda has two broad directions. The first is to develop 
+**a physical intelligence layer**: a physical policy that enables reactive, robust, safe, 
+and generalizable robot behavior. 
+Pure trajectory-based imitation learning or reinforcement learning 
+often struggles to generalize to unseen observations and tasks. 
+We believe that leveraging appropriate priors from generative models, _physics, geometry, and control theory_ 
+is key to building such a layer (@fig-policy-layer).
+
+The second direction is to design **the interfaces that connect this physical intelligence 
+layer to the broader robotic system**, including task representation, multimodal sensing, actuation, and the world models (@fig-interfaces). 
+A central challenge is to find the right level of abstraction for task representation. 
+The representation should not be overly constrained, 
+so that the low-level controller retains sufficient freedom and redundancy, 
+but it should also be informative enough to enable real-time action generation. 
+Developing such balanced task representations is an important research direction. 
+
+Another key question is how to properly integrate tactile and visual feedback. 
+Rather than simply vectorizing all sensory inputs and ignoring their physical structure, 
+we aim to exploit the geometric and physical structure of multimodal signals, such as contact locations, 
+surface normals, force distributions, object geometry, and motion constraints. 
+
+Finally, online adaptation is essential, since real-world robotic systems inevitably face unmodeled effects, 
+changing environments, and partial observations. 
+To address this, we aim to develop statistically efficient few-shot online 
+adaptation algorithms that can rapidly update the robot’s behavior using limited real-world interaction.
+
+::: {.research-figures .research-figures-duo}
+![Physical intelligence — policies grounded in physics, geometry, and control theory.](assets/policy.png){#fig-policy-layer fig-alt="Diagram of the physical intelligence policy layer"}
+
+![Interfaces between layers.](assets/interfaces.png){#fig-interfaces fig-alt="Diagram of interfaces between control modules"}
+:::
+
+See the [Research](research.qmd) page for current projects and the [Publications](publications.qmd) page for our papers.
+
+## Join Us
+
+We welcome motivated students and collaborators. If you are interested in joining the lab or collaborating on a project, please visit [People](people.qmd) and [Contact](contact.qmd).
+
+## News
+
+::: {.callout-note appearance="simple"}
+## Updates
+
+Lab website launched. Check back for openings, publications, and announcements.
+:::

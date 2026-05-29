@@ -1,0 +1,36 @@
+---
+pagetitle: "People – RoPhi Lab"
+---
+
+## Principal Investigator {#principal-investigator}
+
+::: {.person-card}
+::: {.columns}
+::: {.column width="25%"}
+![](assets/placeholder-person.svg){width=180 fig-alt="Portrait placeholder for Yonghyeon Lee"}
+:::
+::: {.column width="75%"}
+### Yonghyeon Lee
+
+*Principal Investigator*
+
+Yonghyeon Lee leads the Ro$\Phi$ Lab. 
+Research interests include robotics, embodied AI, machine learning, and geometric algorithms.
+
+- **Email:** [TBD](contact.qmd)
+- **Links:** [Google Scholar](https://scholar.google.com/citations?user=jizxpZYAAAAJ&hl=ko&oi=ao)
+:::
+:::
+:::
+
+## Ph.D. Students
+
+*Positions opening soon. Contact the PI if you are interested in joining.*
+
+## Master's & Undergraduate Researchers
+
+*We will list current team members here as the group grows.*
+
+## Alumni
+
+*Former lab members will be listed here.*

@@ -1,0 +1,30 @@
+---
+pagetitle: "Contact – RoPhi Lab"
+---
+
+## Robotics and Physical Intelligence Lab
+
+**Principal Investigator:** Yonghyeon Lee  
+**Affiliation:** School TBD
+
+::: {.contact-block}
+### General Inquiries
+
+For research collaborations, speaking invitations, or media requests, contact the lab PI. Email and mailing address will be added when the affiliation is finalized.
+:::
+
+::: {.contact-block}
+### Prospective Students
+
+If you are interested in Ph.D., master's, or undergraduate research positions, include a brief statement of interest, CV, and (if applicable) links to code or publications. We review applications on a rolling basis as openings become available.
+:::
+
+::: {.contact-block}
+### Location
+
+Office and lab location will be posted once the school affiliation is confirmed.
+:::
+
+## Connect
+
+- **GitHub:** [github.com/rophi-lab](https://github.com/rophi-lab)

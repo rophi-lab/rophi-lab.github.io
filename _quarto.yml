@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/pubs/**
+
+website:
+  # title: "RoPhi Lab"
+  description: "Robotics and Physical Artificial Intelligence Lab"
+  site-url: https://rophi-lab.github.io
+  favicon: assets/favicon.svg
+  twitter-card: true
+  open-graph: true
+
+  navbar:
+    background: primary
+    foreground: light
+    search: true
+    logo: assets/logo-navbar.svg
+    logo-alt: "RoPhi Lab logo"
+    left:
+      - text: Home
+        href: index.qmd
+      - text: People
+        href: people.qmd
+      - text: Research
+        href: research.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Contact
+        href: contact.qmd
+    tools:
+      - icon: github
+        href: https://github.com/rophi-lab
+        text: GitHub
+
+  page-footer:
+    center: |
+      Robotics and Physical Artificial Intelligence Lab · [Contact](contact.qmd)
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: false
+    title-block: false
+    smooth-scroll: true
+    code-copy: true
+
+editor: source
