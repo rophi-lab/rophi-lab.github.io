@@ -48,15 +48,32 @@ We also welcome collaboration inquiries from researchers in academia and industr
 
 ## Recommended Courses
 
-You do not need to have completed all of the following before applying. If some topics are new to you, that is fine—we expect you to pick up the core ideas quickly once you join the lab.
+You do not need to have completed all of the following before applying. 
+If some topics are new to you, that is fine—we expect you to pick up the 
+core ideas once you join the lab.
 
-1. **Linear Algebra** — [video lectures](https://youtu.be/QVKj3LADCnA)
-2. **Modern Robotics: Mechanics, Planning, and Control** — [textbook (PDF)](https://hades.mech.northwestern.edu/images/7/7f/MR.pdf); [video lectures](https://www.youtube.com/playlist?list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx)
-3. **Machine Learning Basics** — Murphy, [*Probabilistic Machine Learning: An Introduction*](https://probml.github.io/pml-book/book1.html); Stanford CS229, Andrew Ng ([lecture series](https://youtu.be/jGwO_UgTS7I))
-4. **Deep Reinforcement Learning** — Berkeley CS285 ([lecture series](https://youtu.be/SupFHGbytvA))
-5. **Deep Generative Models** — Stanford CS236 ([lecture series](https://youtu.be/XZ0PMRWXBEU))
-6. **Optimization** — Stanford EE364A ([lecture series](https://youtu.be/kV1ru-Inzl4))
-7. **Advanced Robotics** — MIT Underactuated Robotics ([lecture series](https://youtu.be/uyyBT-MHhLE))
-8. **(Optional) Differential Geometry** — for students interested in deeper geometric formulations:
-   - [Lecture 1](https://youtu.be/7G4SqIboeig)
-   - [Lecture 2](https://youtu.be/V49i_LM8B0E)
+### Mathematics
+
+- **Linear Algebra** — [video lectures](https://youtu.be/QVKj3LADCnA)
+- **Probability and Statistics**
+- **Multivariate Calculus**
+- **Differential Equations**
+- **(Optional) Differential Geometry** — for students interested in deeper geometric formulations:
+  - [Lecture 1](https://youtu.be/7G4SqIboeig)
+  - [Lecture 2](https://youtu.be/V49i_LM8B0E)
+
+### Learning
+
+- **Machine Learning Basics** — Murphy, [*Probabilistic Machine Learning: An Introduction*](https://probml.github.io/pml-book/book1.html); Stanford CS229, Andrew Ng ([lecture series](https://youtu.be/jGwO_UgTS7I))
+- **Deep Reinforcement Learning** — Berkeley CS285 ([lecture series](https://youtu.be/SupFHGbytvA))
+- **Deep Generative Models** — Stanford CS236 ([lecture series](https://youtu.be/XZ0PMRWXBEU))
+
+### Robotics
+
+- **Modern Robotics: Mechanics, Planning, and Control** — [textbook (PDF)](https://hades.mech.northwestern.edu/images/7/7f/MR.pdf); [video lectures](https://www.youtube.com/playlist?list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx)
+- **Advanced Robotics** — MIT Underactuated Robotics ([lecture series](https://youtu.be/uyyBT-MHhLE))
+
+### Optimization
+
+- **Convex Optimization** — Stanford EE364A ([lecture series](https://youtu.be/kV1ru-Inzl4))
+- **Optimal Control**
