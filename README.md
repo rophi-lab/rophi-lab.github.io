@@ -13,7 +13,7 @@ Official website for the **Robotics and Physical Intelligence Lab** (RoPhi Lab),
 | Research | `research.qmd` |
 | Publications | `publications.qmd` |
 | Teaching | `teaching.qmd` |
-| Contact | `contact.qmd` |
+| Join | `join.qmd` |
 
 ## Local development
 
@@ -49,6 +49,7 @@ quarto publish gh-pages
 
 ## Customization
 
+- **PI email (site-wide):** set `pi-email` in `_quarto.yml`; pages reference it with `{{< meta pi-email >}}`
 - **Site title, navbar, theme:** `_quarto.yml`
 - **Styles:** `styles.css`
 - **Publications:** add entries to `references.bib` and update `publications.qmd`

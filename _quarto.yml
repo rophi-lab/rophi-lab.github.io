@@ -4,6 +4,9 @@ project:
   resources:
     - assets/pubs/**
 
+# PI contact — referenced site-wide via {{< meta pi-email >}} or _partials/pi-email-link.md
+pi-email: yhl@mit.edu
+
 website:
   # title: "RoPhi Lab"
   description: "Robotics and Physical Artificial Intelligence Lab"
@@ -29,8 +32,8 @@ website:
         href: publications.qmd
       - text: Teaching
         href: teaching.qmd
-      - text: Contact
-        href: contact.qmd
+      - text: Join
+        href: join.qmd
     tools:
       - icon: github
         href: https://github.com/rophi-lab
@@ -38,7 +41,7 @@ website:
 
   page-footer:
     center: |
-      Robotics and Physical Artificial Intelligence Lab · [Contact](contact.qmd)
+      Robotics and Physical Artificial Intelligence Lab · [Join](join.qmd)
 
 format:
   html:

@@ -82,7 +82,7 @@ See the [Research](research.qmd) page for current projects and the [Publications
 
 ## Join Us
 
-We welcome motivated students and collaborators. If you are interested in joining the lab or collaborating on a project, please visit [People](people.qmd) and [Contact](contact.qmd).
+We welcome motivated students and collaborators. If you are interested in joining the lab or collaborating on a project, please visit [People](people.qmd) and [Join](join.qmd).
 
 ## News
 

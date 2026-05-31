@@ -1,0 +1,62 @@
+---
+pagetitle: "Join – RoPhi Lab"
+---
+
+We welcome motivated students and collaborators interested in robotics and embodied AI. **Ro$\Phi$ Lab** develops general robot intelligence by integrating learning with priors from physics, geometry, and control.
+
+::: {.callout-important appearance="simple"}
+## Openings
+
+PhD positions are opening soon. Interested students are welcome to reach out.
+:::
+
+## About Ro$\Phi$ Lab
+
+**Relevant topics:**
+
+- Perception, planning, control, and learning for robotics
+- Generative modelling and reinforcement learning
+- Physics-informed learning algorithms
+- Geometric algorithms
+
+We aim to make **real-world impact** through robotics and embodied AI—building systems that perceive, plan, act, and adapt in the physical world. See [Research](research.qmd) and [Publications](publications.qmd) for current directions and papers.
+
+**Target venues:**
+
+- **Robotics:** ICRA, IROS, RSS, RA-L, T-RO
+- **Robot Learning:** CoRL, T-RL
+- **Machine Learning:** ICLR, ICML, NeurIPS
+
+## Who We Are Looking For
+
+**Background.** We welcome students from diverse fields—computer science, electrical and electronic engineering, mechanical engineering, mathematics, physics, and related disciplines. Robotics and physical AI are deeply interdisciplinary.
+
+**Skills and goals.** We look for students who want to build strong foundations in mathematics, physics, and learning algorithms, while developing practical skills for real-world robotic systems in both software and hardware.
+
+**Research attitude.** We value students who are humble, sincere, passionate, and open-minded, with a strong desire to identify meaningful research directions of their own, pursue them in depth, and contribute to the field of robotics and physical AI.
+
+## How to Apply {#how-to-apply}
+
+Email **Yonghyeon Lee** at [{{< meta pi-email >}}](mailto:{{< meta pi-email >}}) with:
+
+- CV
+- Transcript
+- Brief statement of research interests
+- Links to projects or code, if available
+
+We also welcome collaboration inquiries from researchers in academia and industry. For team members and the PI's profile, see [People](people.qmd).
+
+## Recommended Courses
+
+You do not need to have completed all of the following before applying. If some topics are new to you, that is fine—we expect you to pick up the core ideas quickly once you join the lab.
+
+1. **Linear Algebra** — [video lectures](https://youtu.be/QVKj3LADCnA)
+2. **Modern Robotics: Mechanics, Planning, and Control** — [textbook (PDF)](https://hades.mech.northwestern.edu/images/7/7f/MR.pdf); [video lectures](https://www.youtube.com/playlist?list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx)
+3. **Machine Learning Basics** — Murphy, [*Probabilistic Machine Learning: An Introduction*](https://probml.github.io/pml-book/book1.html); Stanford CS229, Andrew Ng ([lecture series](https://youtu.be/jGwO_UgTS7I))
+4. **Deep Reinforcement Learning** — Berkeley CS285 ([lecture series](https://youtu.be/SupFHGbytvA))
+5. **Deep Generative Models** — Stanford CS236 ([lecture series](https://youtu.be/XZ0PMRWXBEU))
+6. **Optimization** — Stanford EE364A ([lecture series](https://youtu.be/kV1ru-Inzl4))
+7. **Advanced Robotics** — MIT Underactuated Robotics ([lecture series](https://youtu.be/uyyBT-MHhLE))
+8. **(Optional) Differential Geometry** — for students interested in deeper geometric formulations:
+   - [Lecture 1](https://youtu.be/7G4SqIboeig)
+   - [Lecture 2](https://youtu.be/V49i_LM8B0E)

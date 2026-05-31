@@ -17,7 +17,7 @@ pagetitle: "People – RoPhi Lab"
 Yonghyeon Lee leads the Ro$\Phi$ Lab. 
 Research interests include robotics, embodied AI, machine learning, and geometric algorithms.
 
-- **Email:** [TBD](contact.qmd)
+- **Email:** [{{< meta pi-email >}}](mailto:{{< meta pi-email >}})
 - **Links:** [Google Scholar](https://scholar.google.com/citations?user=jizxpZYAAAAJ&hl=ko&oi=ao)
 :::
 :::
@@ -25,7 +25,7 @@ Research interests include robotics, embodied AI, machine learning, and geometri
 
 ## Ph.D. Students
 
-*Positions opening soon. Contact the PI if you are interested in joining.*
+*Positions opening soon. See [Join](join.qmd) for details and how to apply.*
 
 ## Master's & Undergraduate Researchers
 
