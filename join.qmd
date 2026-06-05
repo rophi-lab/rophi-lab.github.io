@@ -44,6 +44,13 @@ Email **Yonghyeon Lee** at [{{< meta pi-email >}}](mailto:{{< meta pi-email >}})
 - Brief statement of research interests
 - Links to projects or code, if available
 
+### Notes for Undergraduate Students
+
+Undergraduates at all stages are welcome to contact the PI.
+
+- **After your second year (2+ years of study):** We especially encourage you to reach out early—even before applying for a formal lab position. Send your transcript and research interests; we are happy to offer feedback on **future coursework** and how to prepare for research in the lab.
+- **Earlier in your program:** You are welcome too. Briefly describe what you have studied so far (courses, projects, or self-study), and we can suggest a learning path and small entry projects to help you get started.
+
 We also welcome collaboration inquiries from researchers in academia and industry. For team members and the PI's profile, see [People](people.qmd).
 
 ## Recommended Courses

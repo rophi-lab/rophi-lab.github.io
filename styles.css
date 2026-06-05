@@ -227,7 +227,7 @@
 }
 
 .person-card {
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
 .person-card img {
@@ -236,6 +236,29 @@
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+/* Tighter layout inside people cards (override global .columns gap) */
+.person-card .columns {
+  gap: 1.35rem;
+}
+
+.person-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+
+.person-card p {
+  margin: 0.35rem 0;
+}
+
+.person-card ul {
+  margin-top: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.person-card li {
+  margin: 0.15rem 0;
 }
 
 .person-card .role {
@@ -283,6 +306,32 @@
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: none;
+}
+
+/* Feature a single highlighted publication item */
+.pub-item--featured {
+  border: 1px solid rgba(var(--bs-primary-rgb), 0.35);
+  border-radius: 0.85rem;
+  padding: 1.1rem;
+  background: linear-gradient(
+    145deg,
+    rgba(var(--bs-primary-rgb), 0.08) 0%,
+    rgba(var(--bs-primary-rgb), 0.03) 45%,
+    transparent 100%
+  );
+}
+
+.pub-item--featured .pub-thumb {
+  flex-basis: 9rem;
+  width: 9rem;
+}
+
+.pub-item--featured .pub-title {
+  font-size: 1.08rem;
+}
+
+.pub-item--featured .pub-venue {
+  font-weight: 600;
 }
 
 /* Left slot for GIF, PNG, or WebM (use <video> for .webm — not <img>) */

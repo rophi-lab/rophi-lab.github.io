@@ -14,8 +14,9 @@ pagetitle: "People – RoPhi Lab"
 
 *Principal Investigator*
 
-Yonghyeon Lee leads the Ro$\Phi$ Lab. 
-Research interests include robotics, embodied AI, machine learning, and geometric algorithms.
+- Ph.D., [SNU Robotics Lab](https://sites.google.com/robotics.snu.ac.kr/fcp/home) (2018–2023)
+- AI Research Fellow, [KIAS AI Center](https://www.kias.re.kr/kias/cp/centrsPgmsMng/introduction.do?centrspgmsCd=AI&menuNo=403020) (2023–2025)
+- Postdoctoral Associate, [MIT Biomimetic Robotics Lab](https://biomimetics.mit.edu/) (2025–2026)
 
 - **Email:** [{{< meta pi-email >}}](mailto:{{< meta pi-email >}})
 - **Links:** [Google Scholar](https://scholar.google.com/citations?user=jizxpZYAAAAJ&hl=ko&oi=ao)
