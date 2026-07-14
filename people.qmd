@@ -5,11 +5,11 @@ pagetitle: "People – RoPhi Lab"
 ## Principal Investigator {#principal-investigator}
 
 ::: {.person-card}
-::: {.columns}
-::: {.column width="25%"}
-![](assets/people/yonghyeon.lee.jpg){width=220 fig-alt="Portrait placeholder for Yonghyeon Lee"}
+::: {.person-layout}
+::: {.person-photo}
+![](assets/people/yonghyeon.lee.jpg){fig-alt="Portrait of Yonghyeon Lee"}
 :::
-::: {.column width="70%"}
+::: {.person-bio}
 ### Yonghyeon Lee
 
 *Principal Investigator*
