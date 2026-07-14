@@ -7,6 +7,30 @@ pagetitle: "Publications – RoPhi Lab"
 ## 2026
 
 <ul class="pub-list">
+
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/point2pose.webm" autoplay loop muted playsinline aria-label="Point2Pose preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Point2Pose: Occlusion-Recovering 6D Pose Tracking and 3D Reconstruction for Multiple Unknown Objects Via 2D Point Trackers</div>
+<div class="pub-venue">European Conference on Computer Vision (ECCV), 2026</div>
+<div class="pub-authors">Tzu-Yuan Lin, Ho Jae Lee, Kevin Doherty, Yonghyeon Lee, Sangbae Kim</div>
+<div class="pub-links pub-links--todo">
+<span>[arXiv](https://arxiv.org/pdf/2604.10415)</span><span class="pub-sep">·</span>
+<span>[Video](https://www.youtube.com/watch?v=NRfGyx1nes4&feature=youtu.be)</span></div>
+</div>
+</li>
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/anycam.webm" autoplay loop muted playsinline aria-label="AnyCamVLA preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models</div>
+<div class="pub-venue">IEEE International Conference on Intelligent Robots and Systems (IROS), 2026</div>
+<div class="pub-authors">Hyeongjun Heo, Seungyeon Woo, Sang Min Kim, Junho Kim, Junho Lee, Yonghyeon Lee, Young Min Kim</div>
+<div class="pub-links pub-links--todo">
+<span>[Project page](https://heo0224.github.io/AnyCamVLA/)</span><span class="pub-sep">·</span>
+<span>[arXiv](https://arxiv.org/abs/2603.05868)</span></div>
+</div>
+</li>
+
 <li class="pub-item">
 <div class="pub-thumb"><video src="assets/pubs/rl_reactive.webm" autoplay loop muted playsinline aria-label="RLReactive preview"></video></div>
 <div class="pub-content">
@@ -14,7 +38,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-venue">Preprint</div>
 <div class="pub-authors">Ho Jae Lee, Yonghyeon Lee, Alexander Alexiev, Tzu-Yuan Lin, Se Hwan Jeon, Sangbae Kim</div>
 <div class="pub-links pub-links--todo">
-<span>[arXiv](https://arxiv.org/abs/2605.03363)</span><span class="pub-sep"></span>
+<span>[arXiv](https://arxiv.org/abs/2605.03363)</span><span class="pub-sep">·</span>
 <span>[Video](https://www.youtube.com/watch?v=2EWOQwZcX9E&feature=youtu.be)</span></div>
 </div>
 </li>
@@ -25,27 +49,8 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2026</div>
 <div class="pub-authors">Young Hun Kim, Seungyeon Kim, Yonghyeon Lee, Frank Chongwoo Park</div>
 <div class="pub-links pub-links--todo">
+<span>[Project page](https://dreamgrasp.github.io/)</span><span class="pub-sep">·</span>
 <span>[arXiv](https://arxiv.org/abs/2507.05627)</span></div>
-</div>
-</li>
-<li class="pub-item">
-<div class="pub-thumb"><video src="assets/pubs/point2pose.webm" autoplay loop muted playsinline aria-label="Point2Pose preview"></video></div>
-<div class="pub-content">
-<div class="pub-title">Point2Pose: Occlusion-Recovering 6D Pose Tracking and 3D Reconstruction for Multiple Unknown Objects Via 2D Point Trackers</div>
-<div class="pub-venue">Preprint</div>
-<div class="pub-authors">Tzu-Yuan Lin, Ho Jae Lee, Kevin Doherty, Yonghyeon Lee, Sangbae Kim</div>
-<div class="pub-links pub-links--todo">
-<span>[arXiv](https://arxiv.org/pdf/2604.10415)</span></div>
-</div>
-</li>
-<li class="pub-item">
-<div class="pub-thumb"><video src="assets/pubs/anycam.webm" autoplay loop muted playsinline aria-label="AnyCamVLA preview"></video></div>
-<div class="pub-content">
-<div class="pub-title">AnyCamVLA: Zero-Shot Camera Adaptation for Viewpoint Robust Vision-Language-Action Models</div>
-<div class="pub-venue">Preprint</div>
-<div class="pub-authors">Hyeongjun Heo, Seungyeon Woo, Sang Min Kim, Junho Kim, Junho Lee, Yonghyeon Lee, Young Min Kim</div>
-<div class="pub-links pub-links--todo">
-<span>[arXiv](https://arxiv.org/abs/2603.05868)</span></div>
 </div>
 </li>
 <li class="pub-item">

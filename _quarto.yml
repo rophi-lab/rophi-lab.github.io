@@ -5,7 +5,7 @@ project:
     - assets/pubs/**
 
 # PI contact — referenced site-wide via {{< meta pi-email >}} or _partials/pi-email-link.md
-pi-email: yhl@mit.edu
+pi-email: yonghyeon.lee@yonsei.ac.kr # yhl@mit.edu
 
 website:
   # title: "RoPhi Lab"

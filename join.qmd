@@ -10,6 +10,14 @@ We welcome motivated students and collaborators interested in robotics and embod
 PhD positions are opening soon. Interested students are welcome to reach out.
 :::
 
+## How to Apply {#how-to-apply}
+
+Email **Yonghyeon Lee** at [{{< meta pi-email >}}](mailto:{{< meta pi-email >}}) with:
+
+- CV
+- Brief statement of research interests
+- Links to projects or code, if available
+
 ## About Ro$\Phi$ Lab
 
 **Relevant topics:**
@@ -23,7 +31,7 @@ We aim to make **real-world impact** through robotics and embodied AI—building
 
 **Target venues:**
 
-- **Robotics:** ICRA, IROS, RSS, RA-L, T-RO
+- **Robotics:** ICRA, IROS, RSS, RA-L, T-RO, IJRR
 - **Robot Learning:** CoRL, T-RL
 - **Machine Learning:** ICLR, ICML, NeurIPS
 
@@ -35,21 +43,11 @@ We aim to make **real-world impact** through robotics and embodied AI—building
 
 **Research attitude.** We value students who are humble, sincere, passionate, and open-minded, with a strong desire to identify meaningful research directions of their own, pursue them in depth, and contribute to the field of robotics and physical AI.
 
-## How to Apply {#how-to-apply}
-
-Email **Yonghyeon Lee** at [{{< meta pi-email >}}](mailto:{{< meta pi-email >}}) with:
-
-- CV
-- Transcript
-- Brief statement of research interests
-- Links to projects or code, if available
-
 ### Notes for Undergraduate Students
 
 Undergraduates at all stages are welcome to contact the PI.
 
-- **After your second year (2+ years of study):** We especially encourage you to reach out early—even before applying for a formal lab position. Send your transcript and research interests; we are happy to offer feedback on **future coursework** and how to prepare for research in the lab.
-- **Earlier in your program:** You are welcome too. Briefly describe what you have studied so far (courses, projects, or self-study), and we can suggest a learning path and small entry projects to help you get started.
+- **After your second year (2+ years of study):** We especially encourage you to reach out early—even before applying for a formal lab position. We are happy to offer feedback on **future coursework** and how to prepare for research in the lab.
 
 We also welcome collaboration inquiries from researchers in academia and industry. For team members and the PI's profile, see [People](people.qmd).
 
@@ -74,6 +72,7 @@ core ideas once you join the lab.
 - **Machine Learning Basics** — Murphy, [*Probabilistic Machine Learning: An Introduction*](https://probml.github.io/pml-book/book1.html); Stanford CS229, Andrew Ng ([lecture series](https://youtu.be/jGwO_UgTS7I))
 - **Deep Reinforcement Learning** — Berkeley CS285 ([lecture series](https://youtu.be/SupFHGbytvA))
 - **Deep Generative Models** — Stanford CS236 ([lecture series](https://youtu.be/XZ0PMRWXBEU))
+- **Deep Learning for Computer Vision** — Michigan EECS 498 ([leture series](https://www.youtube.com/watch?v=dJYGatp4SvA&list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r&index=1))
 
 ### Robotics
 

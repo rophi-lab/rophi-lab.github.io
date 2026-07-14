@@ -7,16 +7,17 @@ pagetitle: "People – RoPhi Lab"
 ::: {.person-card}
 ::: {.columns}
 ::: {.column width="25%"}
-![](assets/placeholder-person.svg){width=180 fig-alt="Portrait placeholder for Yonghyeon Lee"}
+![](assets/people/yonghyeon.lee.jpg){width=220 fig-alt="Portrait placeholder for Yonghyeon Lee"}
 :::
-::: {.column width="75%"}
+::: {.column width="70%"}
 ### Yonghyeon Lee
 
 *Principal Investigator*
 
-- Ph.D., [SNU Robotics Lab](https://sites.google.com/robotics.snu.ac.kr/fcp/home) (2018–2023)
+- Assistant Professor, [Robotics and Physical AI Lab, Yonsei AI](index.qmd) (Sep 2026–)
+- Postdoctoral Associate, [MIT Biomimetic Robotics Lab](https://biomimetics.mit.edu/) (2025–Aug 2026)
 - AI Research Fellow, [KIAS AI Center](https://www.kias.re.kr/kias/cp/centrsPgmsMng/introduction.do?centrspgmsCd=AI&menuNo=403020) (2023–2025)
-- Postdoctoral Associate, [MIT Biomimetic Robotics Lab](https://biomimetics.mit.edu/) (2025–2026)
+- Ph.D., [SNU Robotics Lab](https://sites.google.com/robotics.snu.ac.kr/fcp/home) (2018–2023)
 
 - **Email:** [{{< meta pi-email >}}](mailto:{{< meta pi-email >}})
 - **Links:** [Google Scholar](https://scholar.google.com/citations?user=jizxpZYAAAAJ&hl=ko&oi=ao)

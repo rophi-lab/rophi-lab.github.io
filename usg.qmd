@@ -1,0 +1,43 @@
+---
+pagetitle: "Undergraduate Study Group – RoPhi Lab"
+---
+
+## Undergraduate Study Group
+
+Physical AI is a highly **interdisciplinary** field. 
+Students often feel overwhelmed by how much there is to 
+learn—from physics and robot modeling to learning algorithms and beyond.
+
+If you are interested in joining **Ro$\Phi$ Lab** 
+for research in robotics and physical AI, 
+we host a study group aimed mainly at **undergraduate students**. 
+The goal is to build foundations early, 
+at your own pace, with guidance from the lab.
+
+## How It Works
+
+1. **Self-study.** Students work through materials selected by the PI. 
+2. **Weekly peer session.** The group meets once a week to discuss what you studied and help each other with questions.
+3. **Office hours with the PI.** Every one or two weeks, students collect questions the group could not resolve and meet with 
+**Prof. Lee** in person for about **1–2 hours**.
+
+## Who Should Join
+
+- Undergraduate students curious about robotics and physical AI
+- Students planning to apply to the lab who want to prepare systematically
+- Anyone who prefers structured self-study with peers and occasional PI feedback
+
+## Active Topics
+
+#### Modern Robotics
+
+- **Materials:** [*Modern Robotics: Mechanics, Planning, and Control*](https://hades.mech.northwestern.edu/images/7/7f/MR.pdf) ([video lectures](https://www.youtube.com/playlist?list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx)); see also [Recommended Courses](join.qmd#robotics) on the Join page
+- **Period:** September 2026 – February 2027
+- **Apply by:** August 2026
+
+## How to Get Involved
+
+Email **Yonghyeon Lee** at [{{< meta pi-email >}}](mailto:{{< meta pi-email >}}) with a brief note about your background and interests. For general application information, see [Join](join.qmd).
+
+- **Enrollment:** **Priority for upper-year students** and those closer to graduation.
+- **Flexible schedule:** Meeting times can be adjusted during exam periods or when members are busy—we keep the group flexible rather than rigid.
