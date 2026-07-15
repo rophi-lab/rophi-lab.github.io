@@ -2,4 +2,18 @@
 pagetitle: "Teaching – RoPhi Lab"
 ---
 
-Courses will be updated. 
+Courses taught by Ro$\Phi$ Lab, listed by term.
+
+## Fall 2026
+
+::: {.course-list}
+
+::: {.course-card}
+[`CAS1102-02`]{.course-code}
+
+### [Object-Oriented Programming](https://rophi-lab.github.io/oop)
+
+[Course site](https://rophi-lab.github.io/oop){.course-site-link}
+:::
+
+:::
