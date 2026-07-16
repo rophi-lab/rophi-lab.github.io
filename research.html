@@ -45,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-919b182f0f1382f54b06f58f1bb9fff7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-1c771aee628caaf85020a36a464bc25b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-919b182f0f1382f54b06f58f1bb9fff7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c124e1bb61165686dea9bfaceed4c885.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-6cff7c01e994024e15c87018d80c9c95.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-c124e1bb61165686dea9bfaceed4c885.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,9 +80,7 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Research – RoPhi Lab">
-<meta property="og:description" content="Robotics and Physical Artificial Intelligence Lab">
 <meta name="twitter:title" content="Research – RoPhi Lab">
-<meta name="twitter:description" content="Robotics and Physical Artificial Intelligence Lab">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -311,7 +309,111 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This page will be updated soon.</p>
+<div class="page-intro">
+<div class="page-intro-eyebrow">
+<p>Research Directions</p>
+</div>
+<p>Our research develops <strong>general robot intelligence</strong> by integrating learning with priors from <strong>physics, geometry, and control</strong>. Topics below are organized by theme—each with an overview, demo videos, and selected publications.</p>
+</div>
+<div class="research-topics">
+<section id="reactive-grasp-and-place-policy-learning" class="level2 research-topic">
+<h2 class="anchored" data-anchor-id="reactive-grasp-and-place-policy-learning">Reactive Grasp-and-Place Policy Learning</h2>
+<ul>
+<li>Grasping and placing rigid objects is fundamental, yet robust and general performance—across arbitrary objects, poses, and dynamically changing conditions—remains unsolved, especially for dexterous hands.</li>
+<li>Real-time feedback control using vision, touch, and proprioception is essential; manipulation should not be reduced to tracking a preplanned trajectory.</li>
+<li>Imitation learning alone is unlikely to generalize sufficiently. A promising direction is to combine physics-based feedback control, such as MPC, with reinforcement learning.</li>
+</ul>
+<div class="research-previews">
+<a class="research-preview" href="publications.html#rl-reactive-grasp">
+<video src="assets/pubs/rl_reactive.webm" autoplay="" loop="" muted="" playsinline="" aria-label="Learning Reactive Dexterous Grasping preview"></video>
+</a>
+<a class="research-preview" href="publications.html#reactive-grasp">
+<video src="assets/pubs/reactive.webm" autoplay="" loop="" muted="" playsinline="" aria-label="Hierarchical Reactive Grasping preview"></video>
+</a>
+<a class="research-preview" href="publications.html#tactile-reactive-grasp">
+<video src="assets/pubs/reflex.webm" autoplay="" loop="" muted="" playsinline="" aria-label="High-Bandwidth Tactile-Reactive Control preview"></video>
+</a>
+</div>
+<section id="selected-publications" class="level3">
+<h3 class="anchored" data-anchor-id="selected-publications">Selected publications</h3>
+<ol type="1">
+<li><a href="./publications.html#rl-reactive-grasp">Learning Reactive Dexterous Grasping via Hierarchical Task-Space RL Planning and Joint-Space QP Control</a> (Preprint, arXiv)</li>
+<li><a href="./publications.html#reactive-grasp">Hierarchical Reactive Grasping via Task-Space Velocity Fields and Joint-Space Quadratic Programming</a> (ICRA 2026)</li>
+<li><a href="./publications.html#tactile-reactive-grasp">High-Bandwidth Tactile-Reactive Control for Grasp Adjustment</a> (ICRA 2026)</li>
+</ol>
+</section>
+</section>
+<section id="movement-primitives-learning" class="level2 research-topic">
+<h2 class="anchored" data-anchor-id="movement-primitives-learning">Movement Primitives Learning</h2>
+<ul>
+<li>Movement primitives encode reusable “muscle memory” for real-time motion generation, particularly when online optimization is too slow or the task is difficult to model.</li>
+<li>Examples include complex collision avoidance, athletic motions near kinodynamic limits, and manipulation of non-rigid materials such as water.</li>
+<li>A promising direction is to combine imitation learning, reinforcement learning, and model-based control.</li>
+</ul>
+<div class="research-previews">
+<a class="research-preview" href="publications.html#dmmp">
+<video src="assets/pubs/dmmp.webm" autoplay="" loop="" muted="" playsinline="" aria-label="Differentiable Motion Manifold Primitives preview"></video>
+</a>
+<a class="research-preview" href="publications.html#bcsdm">
+<video src="assets/pubs/bcsdm.webm" autoplay="" loop="" muted="" playsinline="" aria-label="Behavior-Controllable Stable Dynamics Models preview"></video>
+</a>
+<a class="research-preview" href="publications.html#emmp">
+<video src="assets/pubs/emmp.webm" autoplay="" loop="" muted="" playsinline="" aria-label="EMMP preview"></video>
+</a>
+</div>
+<section id="selected-publications-1" class="level3">
+<h3 class="anchored" data-anchor-id="selected-publications-1">Selected publications</h3>
+<ol type="1">
+<li><a href="./publications.html#dmmp">Differentiable Motion Manifold Primitives for Reactive Motion Generation under Kinodynamic Constraints</a> (ICRA 2026)</li>
+<li><a href="./publications.html#bcsdm">Behavior-Controllable Stable Dynamics Models on Riemannian Configuration Manifolds</a> (T-RO 2025)</li>
+<li><a href="./publications.html#emmp">Equivariant Motion Manifold Primitives</a> (CoRL 2023)</li>
+</ol>
+</section>
+</section>
+<section id="real-world-online-adaptation" class="level2 research-topic">
+<h2 class="anchored" data-anchor-id="real-world-online-adaptation">Real World Online Adaptation</h2>
+<ul>
+<li>Policies developed in simulation inevitably face modeling errors and unforeseen failure modes in the real world.</li>
+<li>Real-world trials provide essential feedback on when and why a policy fails, enabling continual online improvement.</li>
+<li>This requires highly sample-efficient adaptation algorithms that can learn safely from limited real-world experience.</li>
+</ul>
+</section>
+<section id="vision-language-object-model-low-level-policy" class="level2 research-topic">
+<h2 class="anchored" data-anchor-id="vision-language-object-model-low-level-policy">Vision-Language-Object Model + Low-Level Policy</h2>
+<ul>
+<li>Directly learning robot actions with VLAs makes it difficult to achieve robustness to variations in robot configurations and external perturbations, while also scaling across embodiments, action spaces, and hardware platforms.</li>
+<li>An object-centric model can instead predict object-level goals and interactions, enabling scalable learning from egocentric data collected with devices such as smart glasses.</li>
+<li>Given an object-level plan, a low-level policy is required to generate reactive, embodiment-specific motions and contact-rich control.</li>
+</ul>
+</section>
+<section id="geometric-machine-learning" class="level2 research-topic">
+<h2 class="anchored" data-anchor-id="geometric-machine-learning">Geometric Machine Learning</h2>
+<ul>
+<li>Data often lie in non-Euclidean spaces; for example, directional data form a circle in 2D and a sphere in 3D, requiring geometry-aware treatment.</li>
+<li>High-dimensional data may also concentrate near nonlinear low-dimensional manifolds, much like Earth’s two-dimensional surface embedded in three-dimensional space.</li>
+<li>Algorithms that exploit these geometric structures are essential for accurate, efficient, and robust learning.</li>
+</ul>
+<div class="research-previews">
+<a class="research-preview" href="publications.html#ggae">
+<video src="assets/pubs/ggae.webm" autoplay="" loop="" muted="" playsinline="" aria-label="Graph Geometry-Preserving Autoencoders preview"></video>
+</a>
+<a class="research-preview" href="publications.html#smf">
+<video src="assets/pubs/smf.webm" autoplay="" loop="" muted="" playsinline="" aria-label="A Statistical Manifold Framework for Point Cloud Data preview"></video>
+</a>
+<a class="research-preview" href="publications.html#irae">
+<video src="assets/pubs/regae.webm" autoplay="" loop="" muted="" playsinline="" aria-label="Regularized Autoencoders for Isometric Representation Learning preview"></video>
+</a>
+</div>
+<section id="selected-publications-2" class="level3">
+<h3 class="anchored" data-anchor-id="selected-publications-2">Selected publications</h3>
+<ol type="1">
+<li><a href="./publications.html#ggae">Graph Geometry-Preserving Autoencoders</a> (ICML 2024)</li>
+<li><a href="./publications.html#smf">A Statistical Manifold Framework for Point Cloud Data</a> (ICML 2022)</li>
+<li><a href="./publications.html#irae">Regularized Autoencoders for Isometric Representation Learning</a> (ICLR 2022)</li>
+</ol>
+</section>
+</section>
+</div>
 
 
 
