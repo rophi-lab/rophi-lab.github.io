@@ -2,4 +2,110 @@
 pagetitle: "Research – RoPhi Lab"
 ---
 
-This page will be updated soon.
+::: {.page-intro}
+::: {.page-intro-eyebrow}
+Research Directions
+:::
+
+Our research develops **general robot intelligence** by integrating learning with priors from **physics, geometry, and control**. Topics below are organized by theme—each with an overview, demo videos, and selected publications.
+:::
+
+::: {.research-topics}
+
+::: {.research-topic}
+## Reactive Grasp-and-Place Policy Learning
+
+- Grasping and placing rigid objects is fundamental, yet robust and general performance—across arbitrary objects, poses, and dynamically changing conditions—remains unsolved, especially for dexterous hands.
+- Real-time feedback control using vision, touch, and proprioception is essential; manipulation should not be reduced to tracking a preplanned trajectory.
+- Imitation learning alone is unlikely to generalize sufficiently. A promising direction is to combine physics-based feedback control, such as MPC, with reinforcement learning.
+
+```{=html}
+<div class="research-previews">
+<a class="research-preview" href="publications.html#rl-reactive-grasp">
+<video src="assets/pubs/rl_reactive.webm" autoplay loop muted playsinline aria-label="Learning Reactive Dexterous Grasping preview"></video>
+</a>
+<a class="research-preview" href="publications.html#reactive-grasp">
+<video src="assets/pubs/reactive.webm" autoplay loop muted playsinline aria-label="Hierarchical Reactive Grasping preview"></video>
+</a>
+<a class="research-preview" href="publications.html#tactile-reactive-grasp">
+<video src="assets/pubs/reflex.webm" autoplay loop muted playsinline aria-label="High-Bandwidth Tactile-Reactive Control preview"></video>
+</a>
+</div>
+```
+
+### Selected publications
+
+1. [Learning Reactive Dexterous Grasping via Hierarchical Task-Space RL Planning and Joint-Space QP Control](publications.qmd#rl-reactive-grasp) (Preprint, arXiv)
+2. [Hierarchical Reactive Grasping via Task-Space Velocity Fields and Joint-Space Quadratic Programming](publications.qmd#reactive-grasp) (ICRA 2026)
+3. [High-Bandwidth Tactile-Reactive Control for Grasp Adjustment](publications.qmd#tactile-reactive-grasp) (ICRA 2026)
+:::
+
+::: {.research-topic}
+## Movement Primitives Learning
+- Movement primitives encode reusable “muscle memory” for real-time motion generation, particularly when online optimization is too slow or the task is difficult to model.
+- Examples include complex collision avoidance, athletic motions near kinodynamic limits, and manipulation of non-rigid materials such as water.
+- A promising direction is to combine imitation learning, reinforcement learning, and model-based control.
+
+```{=html}
+<div class="research-previews">
+<a class="research-preview" href="publications.html#dmmp">
+<video src="assets/pubs/dmmp.webm" autoplay loop muted playsinline aria-label="Differentiable Motion Manifold Primitives preview"></video>
+</a>
+<a class="research-preview" href="publications.html#bcsdm">
+<video src="assets/pubs/bcsdm.webm" autoplay loop muted playsinline aria-label="Behavior-Controllable Stable Dynamics Models preview"></video>
+</a>
+<a class="research-preview" href="publications.html#emmp">
+<video src="assets/pubs/emmp.webm" autoplay loop muted playsinline aria-label="EMMP preview"></video>
+</a>
+</div>
+```
+
+### Selected publications
+
+1. [Differentiable Motion Manifold Primitives for Reactive Motion Generation under Kinodynamic Constraints](publications.qmd#dmmp) (ICRA 2026)
+2. [Behavior-Controllable Stable Dynamics Models on Riemannian Configuration Manifolds](publications.qmd#bcsdm) (T-RO 2025)
+3. [Equivariant Motion Manifold Primitives](publications.qmd#emmp) (CoRL 2023)
+:::
+
+::: {.research-topic}
+## Real World Online Adaptation
+- Policies developed in simulation inevitably face modeling errors and unforeseen failure modes in the real world.
+- Real-world trials provide essential feedback on when and why a policy fails, enabling continual online improvement.
+- This requires highly sample-efficient adaptation algorithms that can learn safely from limited real-world experience.
+:::
+
+::: {.research-topic}
+## Vision-Language-Object Model + Low-Level Policy
+- Directly learning robot actions with VLAs makes it difficult to achieve robustness to variations in robot configurations and external perturbations, while also scaling across embodiments, action spaces, and hardware platforms.
+- An object-centric model can instead predict object-level goals and interactions, enabling scalable learning from egocentric data collected with devices such as smart glasses.
+- Given an object-level plan, a low-level policy is required to generate reactive, embodiment-specific motions and contact-rich control.
+:::
+
+::: {.research-topic}
+## Geometric Machine Learning
+- Data often lie in non-Euclidean spaces; for example, directional data form a circle in 2D and a sphere in 3D, requiring geometry-aware treatment.
+- High-dimensional data may also concentrate near nonlinear low-dimensional manifolds, much like Earth’s two-dimensional surface embedded in three-dimensional space.
+- Algorithms that exploit these geometric structures are essential for accurate, efficient, and robust learning.
+
+```{=html}
+<div class="research-previews">
+<a class="research-preview" href="publications.html#ggae">
+<video src="assets/pubs/ggae.webm" autoplay loop muted playsinline aria-label="Graph Geometry-Preserving Autoencoders preview"></video>
+</a>
+<a class="research-preview" href="publications.html#smf">
+<video src="assets/pubs/smf.webm" autoplay loop muted playsinline aria-label="A Statistical Manifold Framework for Point Cloud Data preview"></video>
+</a>
+<a class="research-preview" href="publications.html#irae">
+<video src="assets/pubs/regae.webm" autoplay loop muted playsinline aria-label="Regularized Autoencoders for Isometric Representation Learning preview"></video>
+</a>
+</div>
+```
+
+### Selected publications
+1. [Graph Geometry-Preserving Autoencoders](publications.qmd#ggae) (ICML 2024)
+2. [A Statistical Manifold Framework for Point Cloud Data](publications.qmd#smf) (ICML 2022)
+3. [Regularized Autoencoders for Isometric Representation Learning](publications.qmd#irae) (ICLR 2022)
+:::
+
+
+:::
