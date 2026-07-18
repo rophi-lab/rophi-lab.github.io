@@ -35,6 +35,132 @@ Principal Investigator: [Yonghyeon Lee](people.qmd#principal-investigator)
 
 :::
 
+## Preview
+
+```{=html}
+<div class="preview-carousel" data-preview-source="publications.html">
+  <button class="preview-nav preview-nav--prev" type="button" aria-label="Scroll to previous videos" hidden>&#8249;</button>
+  <div class="preview-track" id="preview-track" tabindex="0" aria-label="Research video previews, latest to oldest">
+    <p class="preview-empty">Loading research previews…</p>
+  </div>
+  <button class="preview-nav preview-nav--next" type="button" aria-label="Scroll to next videos" hidden>&#8250;</button>
+</div>
+<script>
+(function () {
+  // Builds the homepage preview strip from the Publications page.
+  // Videos are pulled in document order, which the Publications page keeps
+  // latest -> oldest, so adding a new publication updates this automatically.
+  function initPreviewCarousel() {
+    var carousel = document.querySelector(".preview-carousel");
+    if (!carousel) return;
+    var track = carousel.querySelector(".preview-track");
+    var source = carousel.getAttribute("data-preview-source") || "publications.html";
+
+    fetch(source)
+      .then(function (res) {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.text();
+      })
+      .then(function (html) {
+        var doc = new DOMParser().parseFromString(html, "text/html");
+        var items = Array.prototype.slice.call(doc.querySelectorAll(".pub-item"));
+        track.innerHTML = "";
+
+        var count = 0;
+        items.forEach(function (item) {
+          var video = item.querySelector("video");
+          if (!video) return;
+          var src = video.getAttribute("src");
+          if (!src) return;
+
+          var titleEl = item.querySelector(".pub-title");
+          var venueEl = item.querySelector(".pub-venue");
+          var title = titleEl ? titleEl.textContent.trim() : "";
+          var venue = venueEl ? venueEl.textContent.trim() : "";
+
+          var slide = document.createElement("a");
+          slide.className = "preview-slide";
+          slide.href = item.id ? source + "#" + item.id : source;
+
+          var v = document.createElement("video");
+          v.src = src;
+          v.autoplay = true;
+          v.loop = true;
+          v.muted = true;
+          v.playsInline = true;
+          v.setAttribute("muted", "");
+          v.setAttribute("playsinline", "");
+          v.setAttribute("preload", "metadata");
+          if (title) v.setAttribute("aria-label", title + " preview");
+
+          var cap = document.createElement("div");
+          cap.className = "preview-caption";
+          var t = document.createElement("span");
+          t.className = "preview-caption-title";
+          t.textContent = title;
+          cap.appendChild(t);
+          if (venue) {
+            var vn = document.createElement("span");
+            vn.className = "preview-caption-venue";
+            vn.textContent = venue;
+            cap.appendChild(vn);
+          }
+
+          slide.appendChild(v);
+          slide.appendChild(cap);
+          track.appendChild(slide);
+          count++;
+        });
+
+        if (!count) {
+          track.innerHTML = '<p class="preview-empty">No previews available yet.</p>';
+          return;
+        }
+        setupNav(carousel, track);
+      })
+      .catch(function (err) {
+        track.innerHTML = '<p class="preview-empty">Could not load previews. See the <a href="' + source + '">Publications</a> page.</p>';
+        console.error("Preview carousel failed:", err);
+      });
+  }
+
+  function setupNav(carousel, track) {
+    var prev = carousel.querySelector(".preview-nav--prev");
+    var next = carousel.querySelector(".preview-nav--next");
+    if (!prev || !next) return;
+
+    function scrollByAmount(dir) {
+      var amount = Math.max(track.clientWidth * 0.8, 240);
+      track.scrollBy({ left: dir * amount, behavior: "smooth" });
+    }
+
+    function updateNav() {
+      var maxScroll = track.scrollWidth - track.clientWidth - 1;
+      var overflowing = track.scrollWidth > track.clientWidth + 2;
+      prev.hidden = !overflowing;
+      next.hidden = !overflowing;
+      if (overflowing) {
+        prev.disabled = track.scrollLeft <= 0;
+        next.disabled = track.scrollLeft >= maxScroll;
+      }
+    }
+
+    prev.addEventListener("click", function () { scrollByAmount(-1); });
+    next.addEventListener("click", function () { scrollByAmount(1); });
+    track.addEventListener("scroll", updateNav, { passive: true });
+    window.addEventListener("resize", updateNav);
+    updateNav();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initPreviewCarousel);
+  } else {
+    initPreviewCarousel();
+  }
+})();
+</script>
+```
+
 ## Research
 
 The idea that **intelligence must have a body**, articulated in Brooks's early 1990s work [@brooks1990elephants], challenged the traditional view of intelligence as disembodied reasoning and stressed its grounding in real-world interaction. @pfeifer2001understanding later formalized this perspective as **embodied intelligence**. Brooks's *subsumption architecture* [@brooks1986robust] showed that intelligent behavior can emerge from *layered, loosely coupled modules* running *asynchronously and in parallel*, with higher layers shaping—but not micromanaging—the reactive layers below. *We take this layered, modular structure as a blueprint for general embodied intelligence.*
@@ -86,8 +212,9 @@ We welcome motivated students and collaborators. If you are interested in joinin
 
 ## News
 
-::: {.callout-note appearance="simple"}
-## Updates
+::: {.callout-important appearance="simple"}
+## We are recruiting
 
-Lab website launched. Check back for openings, publications, and announcements.
+**PhD and Master's positions are open.** If you are interested in joining the lab, please [reach out](mailto:{{< meta pi-email >}}). Admissions follow the [department's schedule](https://ai.yonsei.ac.kr/), but even if the timing does not line up, we strongly encourage you to start with an internship in the lab beforehand. See the [Join](join.qmd) page for details.
 :::
+

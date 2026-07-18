@@ -4,12 +4,6 @@ pagetitle: "Join – RoPhi Lab"
 
 We welcome motivated students and collaborators interested in robotics and embodied AI. **Ro$\Phi$ Lab** develops general robot intelligence by integrating learning with priors from physics, geometry, and control.
 
-::: {.callout-important appearance="simple"}
-## Openings
-
-PhD positions are opening soon. Interested students are welcome to reach out.
-:::
-
 ## How to Apply {#how-to-apply}
 
 Email **Yonghyeon Lee** at [{{< meta pi-email >}}](mailto:{{< meta pi-email >}}) with:
@@ -55,11 +49,12 @@ We also welcome collaboration inquiries from researchers in academia and industr
 
 You do not need to have completed all of the following before applying. 
 If some topics are new to you, that is fine—we expect you to pick up the 
-core ideas once you join the lab.
+core ideas once you join the lab. Topics marked [Must-Know]{.must-know} are 
+the essential foundations we expect you to be comfortable with before joining.
 
 ### Mathematics
 
-- **Linear Algebra** — [video lectures](https://youtu.be/QVKj3LADCnA)
+- **Linear Algebra** [Must-Know]{.must-know} — [video lectures](https://youtu.be/QVKj3LADCnA)
 - **Probability and Statistics**
 - **Multivariate Calculus**
 - **Differential Equations**
@@ -69,14 +64,14 @@ core ideas once you join the lab.
 
 ### Learning
 
-- **Machine Learning Basics** — Murphy, [*Probabilistic Machine Learning: An Introduction*](https://probml.github.io/pml-book/book1.html); Stanford CS229, Andrew Ng ([lecture series](https://youtu.be/jGwO_UgTS7I))
+- **Machine Learning Basics** [Must-Know]{.must-know} — Murphy, [*Probabilistic Machine Learning: An Introduction*](https://probml.github.io/pml-book/book1.html); Stanford CS229, Andrew Ng ([lecture series](https://youtu.be/jGwO_UgTS7I))
 - **Deep Reinforcement Learning** — Berkeley CS285 ([lecture series](https://youtu.be/SupFHGbytvA))
 - **Deep Generative Models** — Stanford CS236 ([lecture series](https://youtu.be/XZ0PMRWXBEU))
 - **Deep Learning for Computer Vision** — Michigan EECS 498 ([leture series](https://www.youtube.com/watch?v=dJYGatp4SvA&list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r&index=1))
 
 ### Robotics
 
-- **Modern Robotics: Mechanics, Planning, and Control** — [textbook (PDF)](https://hades.mech.northwestern.edu/images/7/7f/MR.pdf); [video lectures](https://www.youtube.com/playlist?list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx)
+- **Modern Robotics: Mechanics, Planning, and Control** [Must-Know]{.must-know} — [textbook (PDF)](https://hades.mech.northwestern.edu/images/7/7f/MR.pdf); [video lectures](https://www.youtube.com/playlist?list=PLggLP4f-rq02vX0OQQ5vrCxbJrzamYDfx)
 - **Advanced Robotics** — MIT Underactuated Robotics ([lecture series](https://youtu.be/uyyBT-MHhLE))
 
 ### Optimization
