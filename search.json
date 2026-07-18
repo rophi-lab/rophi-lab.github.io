@@ -133,6 +133,13 @@
     "text": "Robotics and Physical AI Lab @ Yonsei\n\nRoΦ Lab\n\nAlso written RoPhi · pronounced ROH-fai\n\n\n\nRo\\(\\Phi\\) Lab aims to develop general robot intelligence—robots that can perceive, plan, act, and adapt intelligently in the physical world. Our approach integrates learning with priors from physics, geometry, and control to achieve data-efficient, robust, and generalizable robotic behavior.\n\n\nPrincipal Investigator: Yonghyeon Lee"
   },
   {
+    "objectID": "index.html#preview",
+    "href": "index.html#preview",
+    "title": "",
+    "section": "Preview",
+    "text": "Preview\n\n  ‹\n  \n    Loading research previews…\n  \n  ›"
+  },
+  {
     "objectID": "index.html#research",
     "href": "index.html#research",
     "title": "",
@@ -151,7 +158,7 @@
     "href": "index.html#news",
     "title": "",
     "section": "News",
-    "text": "News\n\n\n\n\n\n\nNoteUpdates\n\n\n\nLab website launched. Check back for openings, publications, and announcements."
+    "text": "News\n\n\n\n\n\n\nImportantWe are recruiting\n\n\n\nPhD and Master’s positions are open. If you are interested in joining the lab, please reach out. Admissions follow the department’s schedule, but even if the timing does not line up, we strongly encourage you to start with an internship in the lab beforehand. See the Join page for details."
   },
   {
     "objectID": "join.html",
@@ -186,7 +193,7 @@
     "href": "join.html#recommended-courses",
     "title": "",
     "section": "Recommended Courses",
-    "text": "Recommended Courses\nYou do not need to have completed all of the following before applying. If some topics are new to you, that is fine—we expect you to pick up the core ideas once you join the lab.\n\nMathematics\n\nLinear Algebra — video lectures\nProbability and Statistics\nMultivariate Calculus\nDifferential Equations\n(Optional) Differential Geometry — for students interested in deeper geometric formulations:\n\nLecture 1\nLecture 2\n\n\n\n\nLearning\n\nMachine Learning Basics — Murphy, Probabilistic Machine Learning: An Introduction; Stanford CS229, Andrew Ng (lecture series)\nDeep Reinforcement Learning — Berkeley CS285 (lecture series)\nDeep Generative Models — Stanford CS236 (lecture series)\nDeep Learning for Computer Vision — Michigan EECS 498 (leture series)\n\n\n\nRobotics\n\nModern Robotics: Mechanics, Planning, and Control — textbook (PDF); video lectures\nAdvanced Robotics — MIT Underactuated Robotics (lecture series)\n\n\n\nOptimization\n\nConvex Optimization — Stanford EE364A (lecture series)\nOptimal Control"
+    "text": "Recommended Courses\nYou do not need to have completed all of the following before applying. If some topics are new to you, that is fine—we expect you to pick up the core ideas once you join the lab. Topics marked Must-Know are the essential foundations we expect you to be comfortable with before joining.\n\nMathematics\n\nLinear Algebra Must-Know — video lectures\nProbability and Statistics\nMultivariate Calculus\nDifferential Equations\n(Optional) Differential Geometry — for students interested in deeper geometric formulations:\n\nLecture 1\nLecture 2\n\n\n\n\nLearning\n\nMachine Learning Basics Must-Know — Murphy, Probabilistic Machine Learning: An Introduction; Stanford CS229, Andrew Ng (lecture series)\nDeep Reinforcement Learning — Berkeley CS285 (lecture series)\nDeep Generative Models — Stanford CS236 (lecture series)\nDeep Learning for Computer Vision — Michigan EECS 498 (leture series)\n\n\n\nRobotics\n\nModern Robotics: Mechanics, Planning, and Control Must-Know — textbook (PDF); video lectures\nAdvanced Robotics — MIT Underactuated Robotics (lecture series)\n\n\n\nOptimization\n\nConvex Optimization — Stanford EE364A (lecture series)\nOptimal Control"
   },
   {
     "objectID": "publications.html",
