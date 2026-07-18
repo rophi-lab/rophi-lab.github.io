@@ -12,7 +12,7 @@ reference-section-title: References
 ::: {.hero-intro}
 
 ::: {.hero-eyebrow}
-Robotics and Physical Artificial Intelligence Lab
+Robotics and Physical AI Lab @ Yonsei
 :::
 
 ```{=html}
