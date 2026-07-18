@@ -68,6 +68,35 @@ Our research develops **general robot intelligence** by integrating learning wit
 :::
 
 ::: {.research-topic}
+## Perception for Robot Manipulation
+- Perception aims to extract task-relevant representations from sensory observations. A fundamental question is: What constitutes a good perceptual representation for robot manipulation?
+- Explicit representations, such as object poses, shapes, and geometric relationships, enable intuitive and structured policy design. However, they may limit expressiveness and require difficult or fragile state-estimation pipelines.
+- Implicit representations, such as learned neural features, can be more flexible and broadly applicable, but they often make policy design, interpretation, and generalization more challenging.
+- Finding the right balance between explicit structure and learned representations for a given class of manipulation tasks remains a key challenge in robot perception.
+
+```{=html}
+<div class="research-previews">
+<a class="research-preview" href="publications.html#p2p">
+<video src="assets/pubs/point2pose.webm" autoplay loop muted playsinline aria-label="Point2Pose preview"></video>
+</a>
+<a class="research-preview" href="publications.html#ssplat">
+<video src="assets/pubs/ssplat.webm" autoplay loop muted playsinline aria-label="ScrewSplat preview"></video>
+</a>
+<a class="research-preview" href="publications.html#t2sqnet">
+<video src="assets/pubs/t2sqnet.webm" autoplay loop muted playsinline aria-label="T2SQNet preview"></video>
+</a>
+</div>
+```
+
+### Selected publications
+
+1. [Point2Pose: Occlusion-Recovering 6D Pose Tracking and 3D Reconstruction for Multiple Unknown Objects Via 2D Point Trackers](publications.qmd#p2p) (ECCV 2026)
+2. [ScrewSplat: An End-to-End Method for Articulated Object Recognition](publications.qmd#ssplat) (CoRL 2025)
+3. [T2SQNet: A Recognition Model for Manipulating Partially Observed Transparent Tableware Objects](publications.qmd#t2sqnet) (CoRL 2024)
+:::
+
+
+::: {.research-topic}
 ## Real World Online Adaptation
 - Policies developed in simulation inevitably face modeling errors and unforeseen failure modes in the real world.
 - Real-world trials provide essential feedback on when and why a policy fails, enabling continual online improvement.

@@ -8,7 +8,7 @@ pagetitle: "Publications – RoPhi Lab"
 
 <ul class="pub-list">
 
-<li class="pub-item">
+<li class="pub-item" id="p2p">
 <div class="pub-thumb"><video src="assets/pubs/point2pose.webm" autoplay loop muted playsinline aria-label="Point2Pose preview"></video></div>
 <div class="pub-content">
 <div class="pub-title">Point2Pose: Occlusion-Recovering 6D Pose Tracking and 3D Reconstruction for Multiple Unknown Objects Via 2D Point Trackers</div>
@@ -123,7 +123,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-links pub-links--todo"><span>[IEEE Xplore](https://ieeexplore.ieee.org/document/11314787)</span></div>
 </div>
 </li>
-<li class="pub-item">
+<li class="pub-item" id="ssplat">
 <div class="pub-thumb"><video src="assets/pubs/ssplat.webm" autoplay loop muted playsinline aria-label="SSPLAT preview"></video></div>
 <div class="pub-content">
 <div class="pub-title">ScrewSplat: An End-to-End Method for Articulated Object Recognition</div>
@@ -172,7 +172,7 @@ pagetitle: "Publications – RoPhi Lab"
 ## 2024
 
 <ul class="pub-list">
-<li class="pub-item">
+<li class="pub-item" id="t2sqnet">
 <div class="pub-thumb"><video src="assets/pubs/t2sqnet.webm" autoplay loop muted playsinline aria-label="T2SQNET preview"></video></div>
 <div class="pub-content">
 <div class="pub-title">T2SQNet: A Recognition Model for Manipulating Partially Observed Transparent Tableware Objects</div>
