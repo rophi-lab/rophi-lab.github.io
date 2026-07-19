@@ -35,7 +35,7 @@ Principal Investigator: [Yonghyeon Lee](people.qmd#principal-investigator)
 
 :::
 
-## Preview
+## Research Preview
 
 ```{=html}
 <div class="preview-carousel" data-preview-source="publications.html">
@@ -161,6 +161,143 @@ Principal Investigator: [Yonghyeon Lee](people.qmd#principal-investigator)
 </script>
 ```
 
+## Join Us
+
+::: {.callout-important appearance="simple"}
+## We are recruiting
+
+**PhD and Master's positions are open.** If you are interested in joining the lab, please [reach out](mailto:{{< meta pi-email >}}). Admissions follow the [department's schedule](https://ai.yonsei.ac.kr/), but even if the timing does not line up, we strongly encourage you to start with an internship in the lab beforehand. See the [Join](join.qmd) page for details.
+:::
+
+## News
+
+```{=html}
+<div class="news-feed" data-news-source="publications.html" data-news-years="2">
+  <ul class="news-list" id="news-list">
+    <!-- MANUAL NEWS: edit these freely (newest first). Paper acceptances are
+         added automatically below these items from the Publications page. -->
+    <li class="news-item news-item--manual"><span class="news-date">Sep 2026</span> Ro&Phi; Lab officially launches at Yonsei University.</li>
+    <!-- Auto-generated acceptance news is inserted after this placeholder. -->
+    <li class="news-loading">Loading recent news…</li>
+  </ul>
+</div>
+<script>
+(function () {
+  // Appends paper-acceptance news from the Publications page below the manual
+  // items above. Publications are kept latest -> oldest there, so acceptances
+  // shown here update automatically whenever a new publication is added.
+  var SMALL_NUMBERS = ["", "One", "Two", "Three", "Four", "Five", "Six",
+    "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve"];
+
+  function numberWord(n) {
+    return SMALL_NUMBERS[n] || String(n);
+  }
+
+  function parseVenue(text) {
+    // Ignore entries that are not peer-reviewed acceptances.
+    if (/preprint|arxiv|thesis/i.test(text)) return null;
+    var yearMatch = text.match(/\b(20\d{2}|19\d{2})\b/);
+    if (!yearMatch) return null;
+    var year = parseInt(yearMatch[0], 10);
+    // Prefer an abbreviation in parentheses, e.g. (ECCV), (RA-L), (T-RO).
+    var abbrevMatch = text.match(/\(([A-Z][A-Za-z0-9\-\/\.]*)\)/);
+    var name = abbrevMatch ? abbrevMatch[1] : text.split(",")[0].trim();
+    return { name: name, year: year };
+  }
+
+  function clearLoading(list) {
+    var loading = list.querySelector(".news-loading");
+    if (loading) loading.remove();
+  }
+
+  function initNews() {
+    var feed = document.querySelector(".news-feed");
+    if (!feed) return;
+    var list = feed.querySelector(".news-list");
+    var source = feed.getAttribute("data-news-source") || "publications.html";
+    var maxYears = parseInt(feed.getAttribute("data-news-years") || "2", 10);
+
+    fetch(source)
+      .then(function (res) {
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.text();
+      })
+      .then(function (html) {
+        var doc = new DOMParser().parseFromString(html, "text/html");
+        var items = Array.prototype.slice.call(doc.querySelectorAll(".pub-item"));
+
+        var groups = [];
+        var byKey = {};
+        items.forEach(function (item) {
+          var venueEl = item.querySelector(".pub-venue");
+          var titleEl = item.querySelector(".pub-title");
+          if (!venueEl) return;
+          var venue = parseVenue(venueEl.textContent.trim());
+          if (!venue) return;
+          var key = venue.name + " " + venue.year;
+          if (!byKey[key]) {
+            byKey[key] = {
+              name: venue.name,
+              year: venue.year,
+              count: 0,
+              title: titleEl ? titleEl.textContent.trim() : "",
+              id: item.id || ""
+            };
+            groups.push(byKey[key]);
+          }
+          byKey[key].count++;
+        });
+
+        // Keep only the most recent N distinct years (already newest-first).
+        var years = [];
+        groups.forEach(function (g) {
+          if (years.indexOf(g.year) === -1) years.push(g.year);
+        });
+        var allowed = years.slice(0, maxYears);
+        var shown = groups.filter(function (g) {
+          return allowed.indexOf(g.year) !== -1;
+        });
+
+        // Keep the manual items above; only manage the auto-generated ones.
+        clearLoading(list);
+        shown.forEach(function (g) {
+          var li = document.createElement("li");
+          li.className = "news-item news-item--auto";
+          var venueLabel = g.name + " " + g.year;
+          if (g.count === 1) {
+            var href = g.id ? source + "#" + g.id : source;
+            li.innerHTML = 'One paper on \u201C<a href="' + href + '">' +
+              escapeHtml(g.title) + "</a>\u201D is accepted at " +
+              escapeHtml(venueLabel) + ".";
+          } else {
+            li.innerHTML = "<strong>" + numberWord(g.count) +
+              " papers</strong> are accepted at " + escapeHtml(venueLabel) + ".";
+          }
+          list.appendChild(li);
+        });
+      })
+      .catch(function (err) {
+        clearLoading(list);
+        console.error("News feed failed:", err);
+      });
+  }
+
+  function escapeHtml(str) {
+    return str.replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initNews);
+  } else {
+    initNews();
+  }
+})();
+</script>
+```
+
+
 ## Research
 
 The idea that **intelligence must have a body**, articulated in Brooks's early 1990s work [@brooks1990elephants], challenged the traditional view of intelligence as disembodied reasoning and stressed its grounding in real-world interaction. @pfeifer2001understanding later formalized this perspective as **embodied intelligence**. Brooks's *subsumption architecture* [@brooks1986robust] showed that intelligent behavior can emerge from *layered, loosely coupled modules* running *asynchronously and in parallel*, with higher layers shaping—but not micromanaging—the reactive layers below. *We take this layered, modular structure as a blueprint for general embodied intelligence.*
@@ -206,15 +343,4 @@ adaptation algorithms that can rapidly update the robot’s behavior using limit
 
 See the [Research](research.qmd) page for current projects and the [Publications](publications.qmd) page for our papers.
 
-## Join Us
-
-We welcome motivated students and collaborators. If you are interested in joining the lab or collaborating on a project, please visit [People](people.qmd) and [Join](join.qmd).
-
-## News
-
-::: {.callout-important appearance="simple"}
-## We are recruiting
-
-**PhD and Master's positions are open.** If you are interested in joining the lab, please [reach out](mailto:{{< meta pi-email >}}). Admissions follow the [department's schedule](https://ai.yonsei.ac.kr/), but even if the timing does not line up, we strongly encourage you to start with an internship in the lab beforehand. See the [Join](join.qmd) page for details.
-:::
 

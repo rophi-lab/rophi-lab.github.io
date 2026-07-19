@@ -25,6 +25,7 @@ pagetitle: "People – RoPhi Lab"
 :::
 :::
 
+<!--
 ## Ph.D. Students
 
 *Positions opening soon. See [Join](join.qmd) for details and how to apply.*
@@ -36,3 +37,5 @@ pagetitle: "People – RoPhi Lab"
 ## Alumni
 
 *Former lab members will be listed here.*
+-->
+
