@@ -6,7 +6,7 @@ We welcome motivated students and collaborators interested in robotics and embod
 
 ## How to Apply {#how-to-apply}
 
-Email **Yonghyeon Lee** at [{{< meta pi-email >}}](mailto:{{< meta pi-email >}}) with:
+Email **Yonghyeon Lee** at [{{< meta apply-email >}}](mailto:{{< meta apply-email >}}) with:
 
 - CV
 - Brief statement of research interests
