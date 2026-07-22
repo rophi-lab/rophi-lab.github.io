@@ -1,110 +1,5 @@
 [
   {
-    "objectID": "usg.html",
-    "href": "usg.html",
-    "title": "",
-    "section": "",
-    "text": "Physical AI is a highly interdisciplinary field. Students often feel overwhelmed by how much there is to learn—from physics and robot modeling to learning algorithms and beyond.\nIf you are interested in joining Ro\\(\\Phi\\) Lab for research in robotics and physical AI, we host a study group aimed mainly at undergraduate students. The goal is to build foundations early, at your own pace, with guidance from the lab."
-  },
-  {
-    "objectID": "usg.html#undergraduate-study-group",
-    "href": "usg.html#undergraduate-study-group",
-    "title": "",
-    "section": "",
-    "text": "Physical AI is a highly interdisciplinary field. Students often feel overwhelmed by how much there is to learn—from physics and robot modeling to learning algorithms and beyond.\nIf you are interested in joining Ro\\(\\Phi\\) Lab for research in robotics and physical AI, we host a study group aimed mainly at undergraduate students. The goal is to build foundations early, at your own pace, with guidance from the lab."
-  },
-  {
-    "objectID": "usg.html#how-it-works",
-    "href": "usg.html#how-it-works",
-    "title": "",
-    "section": "How It Works",
-    "text": "How It Works\n\nSelf-study. Students work through materials selected by the PI.\nWeekly peer session. The group meets once a week to discuss what you studied and help each other with questions.\nOffice hours with the PI. Every one or two weeks, students collect questions the group could not resolve and meet with Prof. Lee in person for about 1–2 hours."
-  },
-  {
-    "objectID": "usg.html#who-should-join",
-    "href": "usg.html#who-should-join",
-    "title": "",
-    "section": "Who Should Join",
-    "text": "Who Should Join\n\nUndergraduate students curious about robotics and physical AI\nStudents planning to apply to the lab who want to prepare systematically\nAnyone who prefers structured self-study with peers and occasional PI feedback"
-  },
-  {
-    "objectID": "usg.html#active-topics",
-    "href": "usg.html#active-topics",
-    "title": "",
-    "section": "Active Topics",
-    "text": "Active Topics\n\nModern Robotics\n\nMaterials: Modern Robotics: Mechanics, Planning, and Control (video lectures); see also Recommended Courses on the Join page\nPeriod: September 2026 – February 2027\nApply by: August 2026"
-  },
-  {
-    "objectID": "usg.html#how-to-get-involved",
-    "href": "usg.html#how-to-get-involved",
-    "title": "",
-    "section": "How to Get Involved",
-    "text": "How to Get Involved\nEmail Yonghyeon Lee at yonghyeon.lee@yonsei.ac.kr with a brief note about your background and interests. For general application information, see Join.\n\nEnrollment: Priority for upper-year students and those closer to graduation.\nFlexible schedule: Meeting times can be adjusted during exam periods or when members are busy—we keep the group flexible rather than rigid."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "",
-    "section": "",
-    "text": "Research Directions\n\nOur research develops general robot intelligence by integrating learning with priors from physics, geometry, and control. Topics below are organized by theme—each with an overview, demo videos, and selected publications."
-  },
-  {
-    "objectID": "research.html#reactive-grasp-and-place-policy-learning",
-    "href": "research.html#reactive-grasp-and-place-policy-learning",
-    "title": "",
-    "section": "Reactive Grasp-and-Place Policy Learning",
-    "text": "Reactive Grasp-and-Place Policy Learning\n\nGrasping and placing rigid objects is fundamental, yet robust and general performance—across arbitrary objects, poses, and dynamically changing conditions—remains unsolved, especially for dexterous hands.\nReal-time feedback control using vision, touch, and proprioception is essential; manipulation should not be reduced to tracking a preplanned trajectory.\nImitation learning alone is unlikely to generalize sufficiently. A promising direction is to combine physics-based feedback control, such as MPC, with reinforcement learning.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelected publications\n\nLearning Reactive Dexterous Grasping via Hierarchical Task-Space RL Planning and Joint-Space QP Control (Preprint, arXiv)\nHierarchical Reactive Grasping via Task-Space Velocity Fields and Joint-Space Quadratic Programming (ICRA 2026)\nHigh-Bandwidth Tactile-Reactive Control for Grasp Adjustment (ICRA 2026)"
-  },
-  {
-    "objectID": "research.html#movement-primitives-learning",
-    "href": "research.html#movement-primitives-learning",
-    "title": "",
-    "section": "Movement Primitives Learning",
-    "text": "Movement Primitives Learning\n\nMovement primitives encode reusable “muscle memory” for real-time motion generation, particularly when online optimization is too slow or the task is difficult to model.\nExamples include complex collision avoidance, athletic motions near kinodynamic limits, and manipulation of non-rigid materials such as water.\nA promising direction is to combine imitation learning, reinforcement learning, and model-based control.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelected publications\n\nDifferentiable Motion Manifold Primitives for Reactive Motion Generation under Kinodynamic Constraints (ICRA 2026)\nBehavior-Controllable Stable Dynamics Models on Riemannian Configuration Manifolds (T-RO 2025)\nEquivariant Motion Manifold Primitives (CoRL 2023)"
-  },
-  {
-    "objectID": "research.html#perception-for-robot-manipulation",
-    "href": "research.html#perception-for-robot-manipulation",
-    "title": "",
-    "section": "Perception for Robot Manipulation",
-    "text": "Perception for Robot Manipulation\n\nPerception aims to extract task-relevant representations from sensory observations. A fundamental question is: What constitutes a good perceptual representation for robot manipulation?\nExplicit representations, such as object poses, shapes, and geometric relationships, enable intuitive and structured policy design. However, they may limit expressiveness and require difficult or fragile state-estimation pipelines.\nImplicit representations, such as learned neural features, can be more flexible and broadly applicable, but they often make policy design, interpretation, and generalization more challenging.\nFinding the right balance between explicit structure and learned representations for a given class of manipulation tasks remains a key challenge in robot perception.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelected publications\n\nPoint2Pose: Occlusion-Recovering 6D Pose Tracking and 3D Reconstruction for Multiple Unknown Objects Via 2D Point Trackers (ECCV 2026)\nScrewSplat: An End-to-End Method for Articulated Object Recognition (CoRL 2025)\nT2SQNet: A Recognition Model for Manipulating Partially Observed Transparent Tableware Objects (CoRL 2024)"
-  },
-  {
-    "objectID": "research.html#real-world-online-adaptation",
-    "href": "research.html#real-world-online-adaptation",
-    "title": "",
-    "section": "Real World Online Adaptation",
-    "text": "Real World Online Adaptation\n\nPolicies developed in simulation inevitably face modeling errors and unforeseen failure modes in the real world.\nReal-world trials provide essential feedback on when and why a policy fails, enabling continual online improvement.\nThis requires highly sample-efficient adaptation algorithms that can learn safely from limited real-world experience."
-  },
-  {
-    "objectID": "research.html#vision-language-object-model-low-level-policy",
-    "href": "research.html#vision-language-object-model-low-level-policy",
-    "title": "",
-    "section": "Vision-Language-Object Model + Low-Level Policy",
-    "text": "Vision-Language-Object Model + Low-Level Policy\n\nDirectly learning robot actions with VLAs makes it difficult to achieve robustness to variations in robot configurations and external perturbations, while also scaling across embodiments, action spaces, and hardware platforms.\nAn object-centric model can instead predict object-level goals and interactions, enabling scalable learning from egocentric data collected with devices such as smart glasses.\nGiven an object-level plan, a low-level policy is required to generate reactive, embodiment-specific motions and contact-rich control."
-  },
-  {
-    "objectID": "research.html#geometric-machine-learning",
-    "href": "research.html#geometric-machine-learning",
-    "title": "",
-    "section": "Geometric Machine Learning",
-    "text": "Geometric Machine Learning\n\nData often lie in non-Euclidean spaces; for example, directional data form a circle in 2D and a sphere in 3D, requiring geometry-aware treatment.\nHigh-dimensional data may also concentrate near nonlinear low-dimensional manifolds, much like Earth’s two-dimensional surface embedded in three-dimensional space.\nAlgorithms that exploit these geometric structures are essential for accurate, efficient, and robust learning.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelected publications\n\nGraph Geometry-Preserving Autoencoders (ICML 2024)\nA Statistical Manifold Framework for Point Cloud Data (ICML 2022)\nRegularized Autoencoders for Isometric Representation Learning (ICLR 2022)"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "",
-    "section": "",
-    "text": "Principal Investigator\n\nAssistant Professor, Robotics and Physical AI Lab, Yonsei AI (Sep 2026–)\nPostdoctoral Associate, MIT Biomimetic Robotics Lab (2025–Aug 2026)\nAI Research Fellow, KIAS AI Center (2023–2025)\nPh.D., SNU Robotics Lab (2018–2023)\nEmail: yonghyeon.lee@yonsei.ac.kr\nLinks: Google Scholar"
-  },
-  {
-    "objectID": "people.html#principal-investigator",
-    "href": "people.html#principal-investigator",
-    "title": "",
-    "section": "",
-    "text": "Principal Investigator\n\nAssistant Professor, Robotics and Physical AI Lab, Yonsei AI (Sep 2026–)\nPostdoctoral Associate, MIT Biomimetic Robotics Lab (2025–Aug 2026)\nAI Research Fellow, KIAS AI Center (2023–2025)\nPh.D., SNU Robotics Lab (2018–2023)\nEmail: yonghyeon.lee@yonsei.ac.kr\nLinks: Google Scholar"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "",
@@ -175,6 +70,69 @@
     "text": "Recommended Courses\nYou do not need to have completed all of the following before applying. If some topics are new to you, that is fine—we expect you to pick up the core ideas once you join the lab. Topics marked Must-Know are the essential foundations we expect you to be comfortable with before joining.\n\nMathematics\n\nLinear Algebra Must-Know — video lectures\nProbability and Statistics\nMultivariate Calculus\nDifferential Equations\n(Optional) Differential Geometry — for students interested in deeper geometric formulations:\n\nLecture 1\nLecture 2\n\n\n\n\nLearning\n\nMachine Learning Basics Must-Know — Murphy, Probabilistic Machine Learning: An Introduction; Stanford CS229, Andrew Ng (lecture series)\nDeep Reinforcement Learning — Berkeley CS285 (lecture series)\nDeep Generative Models — Stanford CS236 (lecture series)\nDeep Learning for Computer Vision — Michigan EECS 498 (leture series)\n\n\n\nRobotics\n\nModern Robotics: Mechanics, Planning, and Control Must-Know — textbook (PDF); video lectures\nAdvanced Robotics — MIT Underactuated Robotics (lecture series)\n\n\n\nOptimization\n\nConvex Optimization — Stanford EE364A (lecture series)\nOptimal Control"
   },
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "",
+    "section": "",
+    "text": "Research Directions\n\nOur research develops general robot intelligence by integrating learning with priors from physics, geometry, and control. Topics below are organized by theme—each with an overview, demo videos, and selected publications."
+  },
+  {
+    "objectID": "research.html#reactive-grasp-and-place-policy-learning",
+    "href": "research.html#reactive-grasp-and-place-policy-learning",
+    "title": "",
+    "section": "Reactive Grasp-and-Place Policy Learning",
+    "text": "Reactive Grasp-and-Place Policy Learning\n\nGrasping and placing rigid objects is fundamental, yet robust and general performance—across arbitrary objects, poses, and dynamically changing conditions—remains unsolved, especially for dexterous hands.\nReal-time feedback control using vision, touch, and proprioception is essential; manipulation should not be reduced to tracking a preplanned trajectory.\nImitation learning alone is unlikely to generalize sufficiently. A promising direction is to combine physics-based feedback control, such as MPC, with reinforcement learning.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelected publications\n\nLearning Reactive Dexterous Grasping via Hierarchical Task-Space RL Planning and Joint-Space QP Control (Preprint, arXiv)\nHierarchical Reactive Grasping via Task-Space Velocity Fields and Joint-Space Quadratic Programming (ICRA 2026)\nHigh-Bandwidth Tactile-Reactive Control for Grasp Adjustment (ICRA 2026)"
+  },
+  {
+    "objectID": "research.html#movement-primitives-learning",
+    "href": "research.html#movement-primitives-learning",
+    "title": "",
+    "section": "Movement Primitives Learning",
+    "text": "Movement Primitives Learning\n\nMovement primitives encode reusable “muscle memory” for real-time motion generation, particularly when online optimization is too slow or the task is difficult to model.\nExamples include complex collision avoidance, athletic motions near kinodynamic limits, and manipulation of non-rigid materials such as water.\nA promising direction is to combine imitation learning, reinforcement learning, and model-based control.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelected publications\n\nDifferentiable Motion Manifold Primitives for Reactive Motion Generation under Kinodynamic Constraints (ICRA 2026)\nBehavior-Controllable Stable Dynamics Models on Riemannian Configuration Manifolds (T-RO 2025)\nEquivariant Motion Manifold Primitives (CoRL 2023)"
+  },
+  {
+    "objectID": "research.html#perception-for-robot-manipulation",
+    "href": "research.html#perception-for-robot-manipulation",
+    "title": "",
+    "section": "Perception for Robot Manipulation",
+    "text": "Perception for Robot Manipulation\n\nPerception aims to extract task-relevant representations from sensory observations. A fundamental question is: What constitutes a good perceptual representation for robot manipulation?\nExplicit representations, such as object poses, shapes, and geometric relationships, enable intuitive and structured policy design. However, they may limit expressiveness and require difficult or fragile state-estimation pipelines.\nImplicit representations, such as learned neural features, can be more flexible and broadly applicable, but they often make policy design, interpretation, and generalization more challenging.\nFinding the right balance between explicit structure and learned representations for a given class of manipulation tasks remains a key challenge in robot perception.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelected publications\n\nPoint2Pose: Occlusion-Recovering 6D Pose Tracking and 3D Reconstruction for Multiple Unknown Objects Via 2D Point Trackers (ECCV 2026)\nScrewSplat: An End-to-End Method for Articulated Object Recognition (CoRL 2025)\nT2SQNet: A Recognition Model for Manipulating Partially Observed Transparent Tableware Objects (CoRL 2024)"
+  },
+  {
+    "objectID": "research.html#real-world-online-adaptation",
+    "href": "research.html#real-world-online-adaptation",
+    "title": "",
+    "section": "Real World Online Adaptation",
+    "text": "Real World Online Adaptation\n\nPolicies developed in simulation inevitably face modeling errors and unforeseen failure modes in the real world.\nReal-world trials provide essential feedback on when and why a policy fails, enabling continual online improvement.\nThis requires highly sample-efficient adaptation algorithms that can learn safely from limited real-world experience."
+  },
+  {
+    "objectID": "research.html#vision-language-object-model-low-level-policy",
+    "href": "research.html#vision-language-object-model-low-level-policy",
+    "title": "",
+    "section": "Vision-Language-Object Model + Low-Level Policy",
+    "text": "Vision-Language-Object Model + Low-Level Policy\n\nDirectly learning robot actions with VLAs makes it difficult to achieve robustness to variations in robot configurations and external perturbations, while also scaling across embodiments, action spaces, and hardware platforms.\nAn object-centric model can instead predict object-level goals and interactions, enabling scalable learning from egocentric data collected with devices such as smart glasses.\nGiven an object-level plan, a low-level policy is required to generate reactive, embodiment-specific motions and contact-rich control."
+  },
+  {
+    "objectID": "research.html#geometric-machine-learning",
+    "href": "research.html#geometric-machine-learning",
+    "title": "",
+    "section": "Geometric Machine Learning",
+    "text": "Geometric Machine Learning\n\nData often lie in non-Euclidean spaces; for example, directional data form a circle in 2D and a sphere in 3D, requiring geometry-aware treatment.\nHigh-dimensional data may also concentrate near nonlinear low-dimensional manifolds, much like Earth’s two-dimensional surface embedded in three-dimensional space.\nAlgorithms that exploit these geometric structures are essential for accurate, efficient, and robust learning.\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelected publications\n\nGraph Geometry-Preserving Autoencoders (ICML 2024)\nA Statistical Manifold Framework for Point Cloud Data (ICML 2022)\nRegularized Autoencoders for Isometric Representation Learning (ICLR 2022)"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "",
+    "section": "",
+    "text": "Principal Investigator\n\nAssistant Professor, Robotics and Physical AI Lab, Yonsei AI (Sep 2026–)\nPostdoctoral Associate, MIT Biomimetic Robotics Lab (2025–Aug 2026)\nAI Research Fellow, KIAS AI Center (2023–2025)\nPh.D., SNU Robotics Lab (2018–2023)\nEmail: yonghyeon.lee@yonsei.ac.kr\nLinks: Google Scholar"
+  },
+  {
+    "objectID": "people.html#principal-investigator",
+    "href": "people.html#principal-investigator",
+    "title": "",
+    "section": "",
+    "text": "Principal Investigator\n\nAssistant Professor, Robotics and Physical AI Lab, Yonsei AI (Sep 2026–)\nPostdoctoral Associate, MIT Biomimetic Robotics Lab (2025–Aug 2026)\nAI Research Fellow, KIAS AI Center (2023–2025)\nPh.D., SNU Robotics Lab (2018–2023)\nEmail: yonghyeon.lee@yonsei.ac.kr\nLinks: Google Scholar"
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "",
@@ -236,5 +194,47 @@
     "title": "",
     "section": "Fall 2026",
     "text": "Fall 2026\n\n\nCAS1102-02\n\nObject-Oriented Programming\nCourse site"
+  },
+  {
+    "objectID": "usg.html",
+    "href": "usg.html",
+    "title": "",
+    "section": "",
+    "text": "Physical AI is a highly interdisciplinary field. Students often feel overwhelmed by how much there is to learn—from physics and robot modeling to learning algorithms and beyond.\nIf you are interested in joining Ro\\(\\Phi\\) Lab for research in robotics and physical AI, we host a study group aimed mainly at undergraduate students. The goal is to build foundations early, at your own pace, with guidance from the lab."
+  },
+  {
+    "objectID": "usg.html#undergraduate-study-group",
+    "href": "usg.html#undergraduate-study-group",
+    "title": "",
+    "section": "",
+    "text": "Physical AI is a highly interdisciplinary field. Students often feel overwhelmed by how much there is to learn—from physics and robot modeling to learning algorithms and beyond.\nIf you are interested in joining Ro\\(\\Phi\\) Lab for research in robotics and physical AI, we host a study group aimed mainly at undergraduate students. The goal is to build foundations early, at your own pace, with guidance from the lab."
+  },
+  {
+    "objectID": "usg.html#how-it-works",
+    "href": "usg.html#how-it-works",
+    "title": "",
+    "section": "How It Works",
+    "text": "How It Works\n\nSelf-study. Students work through materials selected by the PI.\nWeekly peer session. The group meets once a week to discuss what you studied and help each other with questions.\nOffice hours with the PI. Every one or two weeks, students collect questions the group could not resolve and meet with Prof. Lee in person for about 1–2 hours."
+  },
+  {
+    "objectID": "usg.html#who-should-join",
+    "href": "usg.html#who-should-join",
+    "title": "",
+    "section": "Who Should Join",
+    "text": "Who Should Join\n\nUndergraduate students curious about robotics and physical AI\nStudents planning to apply to the lab who want to prepare systematically\nAnyone who prefers structured self-study with peers and occasional PI feedback"
+  },
+  {
+    "objectID": "usg.html#active-topics",
+    "href": "usg.html#active-topics",
+    "title": "",
+    "section": "Active Topics",
+    "text": "Active Topics\n\nModern Robotics\n\nMaterials: Modern Robotics: Mechanics, Planning, and Control (video lectures); see also Recommended Courses on the Join page\nPeriod: September 2026 – February 2027\nApply by: August 2026"
+  },
+  {
+    "objectID": "usg.html#how-to-get-involved",
+    "href": "usg.html#how-to-get-involved",
+    "title": "",
+    "section": "How to Get Involved",
+    "text": "How to Get Involved\nEmail Yonghyeon Lee at yonghyeon.lee@yonsei.ac.kr with a brief note about your background and interests. For general application information, see Join.\n\nEnrollment: Priority for upper-year students and those closer to graduation.\nFlexible schedule: Meeting times can be adjusted during exam periods or when members are busy—we keep the group flexible rather than rigid."
   }
 ]
