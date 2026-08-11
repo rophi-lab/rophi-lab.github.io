@@ -1,73 +1,45 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "usg.html",
+    "href": "usg.html",
     "title": "",
     "section": "",
-    "text": "Robotics and Physical AI Lab @ Yonsei\n\nRoΦ Lab\n\nAlso written RoPhi · pronounced ROH-fai\n\n\n\nRo\\(\\Phi\\) Lab aims to develop general robot intelligence—robots that can perceive, plan, act, and adapt intelligently in the physical world. Our approach integrates learning with priors from physics, geometry, and control to achieve data-efficient, robust, and generalizable robotic behavior.\n\n\nPrincipal Investigator: Yonghyeon Lee"
+    "text": "Physical AI is a highly interdisciplinary field. Students often feel overwhelmed by how much there is to learn—from physics and robot modeling to learning algorithms and beyond.\nIf you are interested in joining Ro\\(\\Phi\\) Lab for research in robotics and physical AI, we host a study group aimed mainly at undergraduate students. The goal is to build foundations early, at your own pace, with guidance from the lab."
   },
   {
-    "objectID": "index.html#research-preview",
-    "href": "index.html#research-preview",
-    "title": "",
-    "section": "Research Preview",
-    "text": "Research Preview\n\n  ‹\n  \n    Loading research previews…\n  \n  ›"
-  },
-  {
-    "objectID": "index.html#join-us",
-    "href": "index.html#join-us",
-    "title": "",
-    "section": "Join Us",
-    "text": "Join Us\n\n\n\n\n\n\nImportantWe are recruiting\n\n\n\nPhD and Master’s positions are open. If you are interested in joining the lab, please reach out. Admissions follow the department’s schedule, but even if the timing does not line up, we strongly encourage you to start with an internship in the lab beforehand. See the Join page for details."
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "",
-    "section": "News",
-    "text": "News\n\n  \n    \n    Sep 2026 RoΦ Lab officially launches at Yonsei University.\n    \n    Loading recent news…"
-  },
-  {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "",
-    "section": "Research",
-    "text": "Research\nThe idea that intelligence must have a body, articulated in Brooks’s early 1990s work (Brooks, 1990), challenged the traditional view of intelligence as disembodied reasoning and stressed its grounding in real-world interaction. Pfeifer & Scheier (2001) later formalized this perspective as embodied intelligence. Brooks’s subsumption architecture (Brooks, 1986) showed that intelligent behavior can emerge from layered, loosely coupled modules running asynchronously and in parallel, with higher layers shaping—but not micromanaging—the reactive layers below. We take this layered, modular structure as a blueprint for general embodied intelligence.\nFigure 1 illustrates an exemplar hierarchical, modular control architecture for robotic manipulation. Because each layer operates at its own timescale, the stack stays robust: fast low-level controllers need not wait for slower modules, so delay or noise in one layer is less likely to destabilize the system, while higher layers can still subsume lower ones when needed. The modular design also improves explainability, debuggability, and scalability.\n\n\n\n\n\n\n\nFigure 1: Modular hierarchical control architecture.\n\n\n\n\nOur research agenda has two broad directions. The first is to develop a physical intelligence layer: a physical policy that enables reactive, robust, safe, and generalizable robot behavior. Pure trajectory-based imitation learning or reinforcement learning often struggles to generalize to unseen observations and tasks. We believe that leveraging appropriate priors from generative models, physics, geometry, and control theory is key to building such a layer (Figure 2).\nThe second direction is to design the interfaces that connect this physical intelligence layer to the broader robotic system, including task representation, multimodal sensing, actuation, and the world models (Figure 3). A central challenge is to find the right level of abstraction for task representation. The representation should not be overly constrained, so that the low-level controller retains sufficient freedom and redundancy, but it should also be informative enough to enable real-time action generation. Developing such balanced task representations is an important research direction.\nAnother key question is how to properly integrate tactile and visual feedback. Rather than simply vectorizing all sensory inputs and ignoring their physical structure, we aim to exploit the geometric and physical structure of multimodal signals, such as contact locations, surface normals, force distributions, object geometry, and motion constraints.\nFinally, online adaptation is essential, since real-world robotic systems inevitably face unmodeled effects, changing environments, and partial observations. To address this, we aim to develop statistically efficient few-shot online adaptation algorithms that can rapidly update the robot’s behavior using limited real-world interaction.\n\n\n\n\n\n\n\nFigure 2: Physical intelligence — policies grounded in physics, geometry, and control theory.\n\n\n\n\n\n\n\n\n\nFigure 3: Interfaces between layers.\n\n\n\n\nSee the Research page for current projects and the Publications page for our papers."
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
+    "objectID": "usg.html#undergraduate-study-group",
+    "href": "usg.html#undergraduate-study-group",
     "title": "",
     "section": "",
-    "text": "We welcome motivated students and collaborators interested in robotics and embodied AI. Ro\\(\\Phi\\) Lab develops general robot intelligence by integrating learning with priors from physics, geometry, and control."
+    "text": "Physical AI is a highly interdisciplinary field. Students often feel overwhelmed by how much there is to learn—from physics and robot modeling to learning algorithms and beyond.\nIf you are interested in joining Ro\\(\\Phi\\) Lab for research in robotics and physical AI, we host a study group aimed mainly at undergraduate students. The goal is to build foundations early, at your own pace, with guidance from the lab."
   },
   {
-    "objectID": "join.html#how-to-apply",
-    "href": "join.html#how-to-apply",
+    "objectID": "usg.html#how-it-works",
+    "href": "usg.html#how-it-works",
     "title": "",
-    "section": "How to Apply",
-    "text": "How to Apply\nEmail Yonghyeon Lee at apply2rophilab@gmail.com with:\n\nCV\nBrief statement of research interests\nLinks to projects or code, if available"
+    "section": "How It Works",
+    "text": "How It Works\n\nSelf-study. Students work through materials selected by the PI.\nWeekly peer session. The group meets once a week to discuss what you studied and help each other with questions.\nOffice hours with the PI. Every one or two weeks, students collect questions the group could not resolve and meet with Prof. Lee in person for about 1–2 hours."
   },
   {
-    "objectID": "join.html#about-rophi-lab",
-    "href": "join.html#about-rophi-lab",
+    "objectID": "usg.html#who-should-join",
+    "href": "usg.html#who-should-join",
     "title": "",
-    "section": "About Ro\\(\\Phi\\) Lab",
-    "text": "About Ro\\(\\Phi\\) Lab\nRelevant topics:\n\nPerception, planning, control, and learning for robotics\nGenerative modelling and reinforcement learning\nPhysics-informed learning algorithms\nGeometric algorithms\n\nWe aim to make real-world impact through robotics and embodied AI—building systems that perceive, plan, act, and adapt in the physical world. See Research and Publications for current directions and papers.\nTarget venues:\n\nRobotics: ICRA, IROS, RSS, RA-L, T-RO, IJRR\nRobot Learning: CoRL, T-RL\nMachine Learning: ICLR, ICML, NeurIPS"
+    "section": "Who Should Join",
+    "text": "Who Should Join\n\nUndergraduate students curious about robotics and physical AI\nStudents planning to apply to the lab who want to prepare systematically\nAnyone who prefers structured self-study with peers and occasional PI feedback"
   },
   {
-    "objectID": "join.html#who-we-are-looking-for",
-    "href": "join.html#who-we-are-looking-for",
+    "objectID": "usg.html#active-topics",
+    "href": "usg.html#active-topics",
     "title": "",
-    "section": "Who We Are Looking For",
-    "text": "Who We Are Looking For\nBackground. We welcome students from diverse fields—computer science, electrical and electronic engineering, mechanical engineering, mathematics, physics, and related disciplines. Robotics and physical AI are deeply interdisciplinary.\nSkills and goals. We look for students who want to build strong foundations in mathematics, physics, and learning algorithms, while developing practical skills for real-world robotic systems in both software and hardware.\nResearch attitude. We value students who are humble, sincere, passionate, and open-minded, with a strong desire to identify meaningful research directions of their own, pursue them in depth, and contribute to the field of robotics and physical AI.\n\nNotes for Undergraduate Students\nUndergraduates at all stages are welcome to contact the PI.\n\nAfter your second year (2+ years of study): We especially encourage you to reach out early—even before applying for a formal lab position. We are happy to offer feedback on future coursework and how to prepare for research in the lab.\n\nWe also welcome collaboration inquiries from researchers in academia and industry. For team members and the PI’s profile, see People."
+    "section": "Active Topics",
+    "text": "Active Topics\n\nModern Robotics\n\nMaterials: Modern Robotics: Mechanics, Planning, and Control (video lectures); see also Recommended Courses on the Join page\nPeriod: September 2026 – February 2027\nApply by: August 2026"
   },
   {
-    "objectID": "join.html#recommended-courses",
-    "href": "join.html#recommended-courses",
+    "objectID": "usg.html#how-to-get-involved",
+    "href": "usg.html#how-to-get-involved",
     "title": "",
-    "section": "Recommended Courses",
-    "text": "Recommended Courses\nYou do not need to have completed all of the following before applying. If some topics are new to you, that is fine—we expect you to pick up the core ideas once you join the lab. Topics marked Must-Know are the essential foundations we expect you to be comfortable with before joining.\n\nMathematics\n\nLinear Algebra Must-Know — video lectures\nProbability and Statistics\nMultivariate Calculus\nDifferential Equations\n(Optional) Differential Geometry — for students interested in deeper geometric formulations:\n\nLecture 1\nLecture 2\n\n\n\n\nLearning\n\nMachine Learning Basics Must-Know — Murphy, Probabilistic Machine Learning: An Introduction; Stanford CS229, Andrew Ng (lecture series)\nDeep Reinforcement Learning — Berkeley CS285 (lecture series)\nDeep Generative Models — Stanford CS236 (lecture series)\nDeep Learning for Computer Vision — Michigan EECS 498 (leture series)\n\n\n\nRobotics\n\nModern Robotics: Mechanics, Planning, and Control Must-Know — textbook (PDF); video lectures\nAdvanced Robotics — MIT Underactuated Robotics (lecture series)\n\n\n\nOptimization\n\nConvex Optimization — Stanford EE364A (lecture series)\nOptimal Control"
+    "section": "How to Get Involved",
+    "text": "How to Get Involved\nEmail Yonghyeon Lee at yonghyeon.lee@yonsei.ac.kr with a brief note about your background and interests. For general application information, see Join.\n\nEnrollment: Priority for upper-year students and those closer to graduation.\nFlexible schedule: Meeting times can be adjusted during exam periods or when members are busy—we keep the group flexible rather than rigid."
   },
   {
     "objectID": "research.html",
@@ -133,6 +105,76 @@
     "text": "Principal Investigator\n\nAssistant Professor, Robotics and Physical AI Lab, Yonsei AI (Sep 2026–)\nPostdoctoral Associate, MIT Biomimetic Robotics Lab (2025–Aug 2026)\nAI Research Fellow, KIAS AI Center (2023–2025)\nPh.D., SNU Robotics Lab (2018–2023)\nEmail: yonghyeon.lee@yonsei.ac.kr\nLinks: Google Scholar"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Robotics and Physical AI Lab @ Yonsei\n\nRoΦ Lab\n\nAlso written RoPhi · pronounced ROH-fai\n\n\n\nRo\\(\\Phi\\) Lab aims to develop general robot intelligence—robots that can perceive, plan, act, and adapt intelligently in the physical world. Our approach integrates learning with priors from physics, geometry, and control to achieve data-efficient, robust, and generalizable robotic behavior.\n\n\nPrincipal Investigator: Yonghyeon Lee"
+  },
+  {
+    "objectID": "index.html#research-preview",
+    "href": "index.html#research-preview",
+    "title": "",
+    "section": "Research Preview",
+    "text": "Research Preview\n\n  ‹\n  \n    Loading research previews…\n  \n  ›"
+  },
+  {
+    "objectID": "index.html#join-us",
+    "href": "index.html#join-us",
+    "title": "",
+    "section": "Join Us",
+    "text": "Join Us\n\n\n\n\n\n\nImportantWe are recruiting\n\n\n\nPhD and Master’s positions are open. If you are interested in joining the lab, please reach out. Admissions follow the department’s schedule, but even if the timing does not line up, we strongly encourage you to start with an internship in the lab beforehand. See the Join page for details."
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "",
+    "section": "News",
+    "text": "News\n\n  \n    \n    Sep 2026 RoΦ Lab officially launches at Yonsei University.\n    \n    Loading recent news…"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "",
+    "section": "Research",
+    "text": "Research\nThe idea that intelligence must have a body, articulated in Brooks’s early 1990s work (Brooks, 1990), challenged the traditional view of intelligence as disembodied reasoning and stressed its grounding in real-world interaction. Pfeifer & Scheier (2001) later formalized this perspective as embodied intelligence. Brooks’s subsumption architecture (Brooks, 1986) showed that intelligent behavior can emerge from layered, loosely coupled modules running asynchronously and in parallel, with higher layers shaping—but not micromanaging—the reactive layers below. We take this layered, modular structure as a blueprint for general embodied intelligence.\nFigure 1 illustrates an exemplar hierarchical, modular control architecture for robotic manipulation. Because each layer operates at its own timescale, the stack stays robust: fast low-level controllers need not wait for slower modules, so delay or noise in one layer is less likely to destabilize the system, while higher layers can still subsume lower ones when needed. The modular design also improves explainability, debuggability, and scalability.\n\n\n\n\n\n\n\nFigure 1: Modular hierarchical control architecture.\n\n\n\n\nOur research agenda has two broad directions. The first is to develop a physical intelligence layer: a physical policy that enables reactive, robust, safe, and generalizable robot behavior. Pure trajectory-based imitation learning or reinforcement learning often struggles to generalize to unseen observations and tasks. We believe that leveraging appropriate priors from generative models, physics, geometry, and control theory is key to building such a layer (Figure 2).\nThe second direction is to design the interfaces that connect this physical intelligence layer to the broader robotic system, including task representation, multimodal sensing, actuation, and the world models (Figure 3). A central challenge is to find the right level of abstraction for task representation. The representation should not be overly constrained, so that the low-level controller retains sufficient freedom and redundancy, but it should also be informative enough to enable real-time action generation. Developing such balanced task representations is an important research direction.\nAnother key question is how to properly integrate tactile and visual feedback. Rather than simply vectorizing all sensory inputs and ignoring their physical structure, we aim to exploit the geometric and physical structure of multimodal signals, such as contact locations, surface normals, force distributions, object geometry, and motion constraints.\nFinally, online adaptation is essential, since real-world robotic systems inevitably face unmodeled effects, changing environments, and partial observations. To address this, we aim to develop statistically efficient few-shot online adaptation algorithms that can rapidly update the robot’s behavior using limited real-world interaction.\n\n\n\n\n\n\n\nFigure 2: Physical intelligence — policies grounded in physics, geometry, and control theory.\n\n\n\n\n\n\n\n\n\nFigure 3: Interfaces between layers.\n\n\n\n\nSee the Research page for current projects and the Publications page for our papers."
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "",
+    "section": "",
+    "text": "We welcome motivated students and collaborators interested in robotics and embodied AI. Ro\\(\\Phi\\) Lab develops general robot intelligence by integrating learning with priors from physics, geometry, and control."
+  },
+  {
+    "objectID": "join.html#how-to-apply",
+    "href": "join.html#how-to-apply",
+    "title": "",
+    "section": "How to Apply",
+    "text": "How to Apply\nEmail Yonghyeon Lee at apply2rophilab@gmail.com with:\n\nCV\nAcademic transcript(s) / academic record\nBrief statement of research interests\nLinks to projects or code, if available"
+  },
+  {
+    "objectID": "join.html#about-rophi-lab",
+    "href": "join.html#about-rophi-lab",
+    "title": "",
+    "section": "About Ro\\(\\Phi\\) Lab",
+    "text": "About Ro\\(\\Phi\\) Lab\nRelevant topics:\n\nPerception, planning, control, and learning for robotics\nGenerative modelling and reinforcement learning\nPhysics-informed learning algorithms\nGeometric algorithms\n\nWe aim to make real-world impact through robotics and embodied AI—building systems that perceive, plan, act, and adapt in the physical world. See Research and Publications for current directions and papers.\nTarget venues:\n\nRobotics: ICRA, IROS, RSS, RA-L, T-RO, IJRR\nRobot Learning: CoRL, T-RL\nMachine Learning: ICLR, ICML, NeurIPS"
+  },
+  {
+    "objectID": "join.html#who-we-are-looking-for",
+    "href": "join.html#who-we-are-looking-for",
+    "title": "",
+    "section": "Who We Are Looking For",
+    "text": "Who We Are Looking For\nBackground. We welcome students from diverse fields—computer science, electrical and electronic engineering, mechanical engineering, mathematics, physics, and related disciplines. Robotics and physical AI are deeply interdisciplinary.\nSkills and goals. We look for students who want to build strong foundations in mathematics, physics, and learning algorithms, while developing practical skills for real-world robotic systems in both software and hardware.\nResearch attitude. We value students who are humble, sincere, passionate, and open-minded, with a strong desire to identify meaningful research directions of their own, pursue them in depth, and contribute to the field of robotics and physical AI.\n\nNotes for Undergraduate Students\nUndergraduates at all stages are welcome to contact the PI.\n\nAfter your second year (2+ years of study): We especially encourage you to reach out early—even before applying for a formal lab position. We are happy to offer feedback on future coursework and how to prepare for research in the lab.\n\nWe also welcome collaboration inquiries from researchers in academia and industry. For team members and the PI’s profile, see People."
+  },
+  {
+    "objectID": "join.html#recommended-courses",
+    "href": "join.html#recommended-courses",
+    "title": "",
+    "section": "Recommended Courses",
+    "text": "Recommended Courses\nYou do not need to have completed all of the following before applying. If some topics are new to you, that is fine—we expect you to pick up the core ideas once you join the lab. Topics marked Must-Know are the essential foundations we expect you to be comfortable with before joining.\n\nMathematics\n\nLinear Algebra Must-Know — video lectures\nProbability and Statistics\nMultivariate Calculus\nDifferential Equations\n(Optional) Differential Geometry — for students interested in deeper geometric formulations:\n\nLecture 1\nLecture 2\n\n\n\n\nLearning\n\nMachine Learning Basics Must-Know — Murphy, Probabilistic Machine Learning: An Introduction; Stanford CS229, Andrew Ng (lecture series)\nDeep Reinforcement Learning — Berkeley CS285 (lecture series)\nDeep Generative Models — Stanford CS236 (lecture series)\nDeep Learning for Computer Vision — Michigan EECS 498 (leture series)\n\n\n\nRobotics\n\nModern Robotics: Mechanics, Planning, and Control Must-Know — textbook (PDF); video lectures\nAdvanced Robotics — MIT Underactuated Robotics (lecture series)\n\n\n\nOptimization\n\nConvex Optimization — Stanford EE364A (lecture series)\nOptimal Control"
+  },
+  {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "",
@@ -194,47 +236,5 @@
     "title": "",
     "section": "Fall 2026",
     "text": "Fall 2026\n\n\nCAS1102-02\n\nObject-Oriented Programming\nCourse site"
-  },
-  {
-    "objectID": "usg.html",
-    "href": "usg.html",
-    "title": "",
-    "section": "",
-    "text": "Physical AI is a highly interdisciplinary field. Students often feel overwhelmed by how much there is to learn—from physics and robot modeling to learning algorithms and beyond.\nIf you are interested in joining Ro\\(\\Phi\\) Lab for research in robotics and physical AI, we host a study group aimed mainly at undergraduate students. The goal is to build foundations early, at your own pace, with guidance from the lab."
-  },
-  {
-    "objectID": "usg.html#undergraduate-study-group",
-    "href": "usg.html#undergraduate-study-group",
-    "title": "",
-    "section": "",
-    "text": "Physical AI is a highly interdisciplinary field. Students often feel overwhelmed by how much there is to learn—from physics and robot modeling to learning algorithms and beyond.\nIf you are interested in joining Ro\\(\\Phi\\) Lab for research in robotics and physical AI, we host a study group aimed mainly at undergraduate students. The goal is to build foundations early, at your own pace, with guidance from the lab."
-  },
-  {
-    "objectID": "usg.html#how-it-works",
-    "href": "usg.html#how-it-works",
-    "title": "",
-    "section": "How It Works",
-    "text": "How It Works\n\nSelf-study. Students work through materials selected by the PI.\nWeekly peer session. The group meets once a week to discuss what you studied and help each other with questions.\nOffice hours with the PI. Every one or two weeks, students collect questions the group could not resolve and meet with Prof. Lee in person for about 1–2 hours."
-  },
-  {
-    "objectID": "usg.html#who-should-join",
-    "href": "usg.html#who-should-join",
-    "title": "",
-    "section": "Who Should Join",
-    "text": "Who Should Join\n\nUndergraduate students curious about robotics and physical AI\nStudents planning to apply to the lab who want to prepare systematically\nAnyone who prefers structured self-study with peers and occasional PI feedback"
-  },
-  {
-    "objectID": "usg.html#active-topics",
-    "href": "usg.html#active-topics",
-    "title": "",
-    "section": "Active Topics",
-    "text": "Active Topics\n\nModern Robotics\n\nMaterials: Modern Robotics: Mechanics, Planning, and Control (video lectures); see also Recommended Courses on the Join page\nPeriod: September 2026 – February 2027\nApply by: August 2026"
-  },
-  {
-    "objectID": "usg.html#how-to-get-involved",
-    "href": "usg.html#how-to-get-involved",
-    "title": "",
-    "section": "How to Get Involved",
-    "text": "How to Get Involved\nEmail Yonghyeon Lee at yonghyeon.lee@yonsei.ac.kr with a brief note about your background and interests. For general application information, see Join.\n\nEnrollment: Priority for upper-year students and those closer to graduation.\nFlexible schedule: Meeting times can be adjusted during exam periods or when members are busy—we keep the group flexible rather than rigid."
   }
 ]
