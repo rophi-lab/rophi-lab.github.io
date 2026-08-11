@@ -9,6 +9,7 @@ We welcome motivated students and collaborators interested in robotics and embod
 Email **Yonghyeon Lee** at [{{< meta apply-email >}}](mailto:{{< meta apply-email >}}) with:
 
 - CV
+- Academic transcript(s) / academic record
 - Brief statement of research interests
 - Links to projects or code, if available
 
