@@ -31,8 +31,8 @@ website:
         href: research.qmd
       - text: Publications
         href: publications.qmd
-      - text: Teaching
-        href: teaching.qmd
+      # - text: Teaching
+      #   href: teaching.qmd
       - text: Join
         href: join.qmd
     tools:
