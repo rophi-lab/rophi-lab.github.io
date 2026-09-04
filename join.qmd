@@ -79,3 +79,9 @@ the essential foundations we expect you to be comfortable with before joining.
 
 - **Convex Optimization** — Stanford EE364A ([lecture series](https://youtu.be/kV1ru-Inzl4))
 - **Optimal Control**
+
+## Modern Robotics Study Group
+
+Studying *Modern Robotics* is essential for building a strong foundation in robotics and physical AI—but we also know that working through it alone can be difficult at times.
+If you would like to join our Modern Robotics study group, please email [{{< meta apply-email >}}](mailto:{{< meta apply-email >}}) with a brief note about your background and interest.
+Even if undergraduate internship positions are limited due to space, year of study, or other constraints, **students of any year are welcome to join the study group**.
