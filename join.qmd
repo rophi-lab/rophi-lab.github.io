@@ -13,6 +13,11 @@ Email **Yonghyeon Lee** at [{{< meta apply-email >}}](mailto:{{< meta apply-emai
 - Brief statement of research interests
 - Links to projects or code, if available
 
+Due to the large volume of incoming emails, 
+we may not be able to reply to every message. 
+We apologize for this and kindly ask 
+that you not take a delayed or missing reply personally.
+
 ## About Ro$\Phi$ Lab
 
 **Relevant topics:**
