@@ -323,6 +323,28 @@
   margin-bottom: 0.25rem;
 }
 
+.service-list {
+  margin-top: 0.85rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--bs-secondary);
+}
+
+.service-list p {
+  margin: 0 0 0.25rem;
+  font-size: inherit;
+  color: var(--bs-body-color);
+}
+
+.service-list ul {
+  margin: 0.15rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.service-list li {
+  margin: 0.1rem 0;
+}
+
 /* Phone: stack photo above bio at a readable size */
 @media (max-width: 576px) {
   .person-layout {
