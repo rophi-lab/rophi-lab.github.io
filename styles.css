@@ -323,26 +323,59 @@
   margin-bottom: 0.25rem;
 }
 
-.service-list {
+.pi-more {
   margin-top: 0.85rem;
   font-size: 0.82rem;
   line-height: 1.45;
   color: var(--bs-secondary);
 }
 
-.service-list p {
-  margin: 0 0 0.25rem;
+.pi-more summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--bs-link-color);
+  list-style: none;
+}
+
+.pi-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.pi-more summary::before {
+  content: "▸ ";
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+
+.pi-more[open] summary::before {
+  content: "▾ ";
+}
+
+.pi-more-body {
+  max-height: 12rem;
+  overflow-y: auto;
+  margin-top: 0.45rem;
+  padding: 0.55rem 0.7rem 0.4rem 0.15rem;
+  scrollbar-width: thin;
+}
+
+.pi-more-body p {
+  margin: 0.55rem 0 0.2rem;
   font-size: inherit;
   color: var(--bs-body-color);
 }
 
-.service-list ul {
-  margin: 0.15rem 0 0;
+.pi-more-body p:first-child {
+  margin-top: 0;
+}
+
+.pi-more-body ul {
+  margin: 0.1rem 0 0;
   padding-left: 1.1rem;
 }
 
-.service-list li {
-  margin: 0.1rem 0;
+.pi-more-body li {
+  margin: 0.15rem 0;
 }
 
 /* Phone: stack photo above bio at a readable size */
