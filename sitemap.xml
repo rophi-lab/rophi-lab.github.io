@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rophi-lab.github.io/research.html</loc>
-    <lastmod>2026-10-11T13:07:53.234Z</lastmod>
-  </url>
-  <url>
     <loc>https://rophi-lab.github.io/usg.html</loc>
-    <lastmod>2026-10-11T13:07:53.235Z</lastmod>
+    <lastmod>2026-07-14T12:04:47.921Z</lastmod>
   </url>
   <url>
-    <loc>https://rophi-lab.github.io/publications.html</loc>
-    <lastmod>2026-10-11T13:07:53.234Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rophi-lab.github.io/teaching.html</loc>
-    <lastmod>2026-10-11T13:07:53.235Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rophi-lab.github.io/index.html</loc>
-    <lastmod>2026-10-11T13:07:53.234Z</lastmod>
+    <loc>https://rophi-lab.github.io/research.html</loc>
+    <lastmod>2026-07-18T13:24:51.038Z</lastmod>
   </url>
   <url>
     <loc>https://rophi-lab.github.io/people.html</loc>
-    <lastmod>2026-10-11T13:07:53.234Z</lastmod>
+    <lastmod>2026-09-14T09:10:47.001Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rophi-lab.github.io/index.html</loc>
+    <lastmod>2026-07-19T11:03:58.137Z</lastmod>
   </url>
   <url>
     <loc>https://rophi-lab.github.io/join.html</loc>
-    <lastmod>2026-10-11T13:07:53.234Z</lastmod>
+    <lastmod>2026-09-12T08:07:42.386Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rophi-lab.github.io/publications.html</loc>
+    <lastmod>2026-10-11T13:06:13.895Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rophi-lab.github.io/teaching.html</loc>
+    <lastmod>2026-07-19T11:07:00.499Z</lastmod>
   </url>
 </urlset>
