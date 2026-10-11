@@ -8,6 +8,91 @@ pagetitle: "Publications – RoPhi Lab"
 
 <ul class="pub-list">
 
+<li class="pub-item" id="blind-grasp-reflex">
+<div class="pub-thumb"><video src="assets/pubs/see2reach_feel2grasp.webm" autoplay loop muted playsinline aria-label="See to Reach, Feel to Grasp preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">See to Reach, Feel to Grasp: Learning A Blind Grasp Reflex for Anthropomorphic Robotic Hands</div>
+<div class="pub-venue">Preprint</div>
+<div class="pub-authors">Alexander Alexiev, Tzu-Yuan Lin, Sang Min Kim, Ho Jae Lee, Yonghyeon Lee, Sangbae Kim</div>
+<div class="pub-links pub-links--todo">
+<span>[Project page](https://blindgraspreflex.github.io)</span><span class="pub-sep">·</span>
+<span>[arXiv](https://arxiv.org/abs/2609.31323)</span></div>
+</div>
+</li>
+
+<li class="pub-item" id="three-point-grasp">
+<div class="pub-thumb"><video src="assets/pubs/steerable_grasp.webm" autoplay loop muted playsinline aria-label="Steerable and Reactive Grasping preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Steerable and Reactive Grasping Through Modular Design with a Three-Point Interface</div>
+<div class="pub-venue">Preprint</div>
+<div class="pub-authors">Andrew Nguyen, Yonghyeon Lee, Sangbae Kim</div>
+<div class="pub-links pub-links--todo">
+<span>[Project page](https://heatmap-three-point-interface-grasping.github.io/)</span><span class="pub-sep">·</span>
+<span>[arXiv](https://arxiv.org/abs/2609.24896)</span></div>
+</div>
+</li>
+
+<li class="pub-item" id="whole-hand-force">
+<div class="pub-thumb"><video src="assets/pubs/force_regulation.webm" autoplay loop muted playsinline aria-label="Real-Time Force Regulation preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Real-Time Force Regulation for Whole-Hand Dexterous Grasping</div>
+<div class="pub-venue">Preprint</div>
+<div class="pub-authors">Sang Min Kim, Alexander Alexiev, Tzu-Yuan Lin, Sangbae Kim, Young Min Kim, Yonghyeon Lee</div>
+<div class="pub-links pub-links--todo">
+<span>[Project page](https://sangminkim-99.github.io/reactive-grasp-whole-hand/)</span><span class="pub-sep">·</span>
+<span>[arXiv](https://arxiv.org/abs/2609.30082)</span></div>
+</div>
+</li>
+
+<li class="pub-item" id="poil">
+<div class="pub-thumb"><video src="assets/pubs/real_world_mug_tree.webm" autoplay loop muted playsinline aria-label="POIL preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">POIL: Point-based One-Shot Imitation Learning with Stable Dynamical Systems</div>
+<div class="pub-venue">Preprint</div>
+<div class="pub-authors">Sang Min Kim, Jinwoo Seo, Hyeongjun Heo, Junho Lee, Yonghyeon Lee, Young Min Kim</div>
+<div class="pub-links pub-links--todo">
+<span>[Project page](https://sangminkim-99.github.io/poil/)</span><span class="pub-sep">·</span>
+<span>[arXiv](https://arxiv.org/abs/2609.30404)</span></div>
+</div>
+</li>
+
+<li class="pub-item" id="tri-har">
+<div class="pub-thumb"><img src="assets/pubs/tri_har.jpg" alt="TRI-HAR overview"></div>
+<div class="pub-content">
+<div class="pub-title">Rotation-Invariant Multi-IMU Activity Recognition under Independent Per-Location Orientation Shifts</div>
+<div class="pub-venue">ACM International Symposium on Wearable Computers (ISWC), 2026</div>
+<div class="pub-authors">Seungyeol Baek, Yoonbyung Chai, Yonghyeon Lee, Sungjoon Choi, Sungho Suh</div>
+<div class="pub-links pub-links--todo">
+<span>[Paper](https://dl.acm.org/doi/10.1145/3830727.3834824)</span><span class="pub-sep">·</span>
+<span>[arXiv](https://arxiv.org/abs/2608.15621)</span><span class="pub-sep">·</span>
+<span>[Code](https://github.com/mbaek01/TRI-HAR)</span></div>
+</div>
+</li>
+
+<li class="pub-item" id="ingrid">
+<div class="pub-thumb"><img src="assets/pubs/ingrid.png" alt="INGRID overview"></div>
+<div class="pub-content">
+<div class="pub-title">INGRID: Interactive Geometry and Instance Identification for Occluded Scenes</div>
+<div class="pub-venue">Computers &amp; Graphics, 2026</div>
+<div class="pub-authors">Junho Lee, Sangmin Kim, Yonghyeon Lee, Young Min Kim</div>
+<div class="pub-links pub-links--todo">
+<span>[Paper](https://www.sciencedirect.com/science/article/pii/S0097849326002475)</span><span class="pub-sep">·</span>
+<span>[Project page](https://twjhlee.github.io/projects/INGRID)</span></div>
+</div>
+</li>
+
+<li class="pub-item">
+<div class="pub-thumb"><video src="assets/pubs/dreamgrasp.webm" autoplay loop muted playsinline aria-label="DreamGrasp preview"></video></div>
+<div class="pub-content">
+<div class="pub-title">Zero-Shot Scene Geometry Recognition from Sparse Partial-View Images: Leveraging Generative Diffusion Models for Robotic Manipulation Tasks</div>
+<div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2026</div>
+<div class="pub-authors">Young Hun Kim, Seungyeon Kim, Yonghyeon Lee, Frank Chongwoo Park</div>
+<div class="pub-links pub-links--todo">
+<span>[Project page](https://dreamgrasp.github.io/)</span><span class="pub-sep">·</span>
+<span>[arXiv](https://arxiv.org/abs/2507.05627)</span></div>
+</div>
+</li>
+
 <li class="pub-item" id="p2p">
 <div class="pub-thumb"><video src="assets/pubs/point2pose.webm" autoplay loop muted playsinline aria-label="Point2Pose preview"></video></div>
 <div class="pub-content">
@@ -15,6 +100,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-venue">European Conference on Computer Vision (ECCV), 2026</div>
 <div class="pub-authors">Tzu-Yuan Lin, Ho Jae Lee, Kevin Doherty, Yonghyeon Lee, Sangbae Kim</div>
 <div class="pub-links pub-links--todo">
+<span>[Project page](https://point2pose.github.io/)</span><span class="pub-sep">·</span>
 <span>[arXiv](https://arxiv.org/pdf/2604.10415)</span><span class="pub-sep">·</span>
 <span>[Video](https://www.youtube.com/watch?v=NRfGyx1nes4&feature=youtu.be)</span></div>
 </div>
@@ -40,18 +126,6 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-links pub-links--todo">
 <span>[arXiv](https://arxiv.org/abs/2605.03363)</span><span class="pub-sep">·</span>
 <span>[Video](https://www.youtube.com/watch?v=2EWOQwZcX9E&feature=youtu.be)</span></div>
-</div>
-</li>
-
-<li class="pub-item">
-<div class="pub-thumb"><video src="assets/pubs/dreamgrasp.webm" autoplay loop muted playsinline aria-label="DreamGrasp preview"></video></div>
-<div class="pub-content">
-<div class="pub-title">Zero-Shot Scene Geometry Recognition from Sparse Partial-View Images: Leveraging Generative Diffusion Models for Robotic Manipulation Tasks</div>
-<div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2026</div>
-<div class="pub-authors">Young Hun Kim, Seungyeon Kim, Yonghyeon Lee, Frank Chongwoo Park</div>
-<div class="pub-links pub-links--todo">
-<span>[Project page](https://dreamgrasp.github.io/)</span><span class="pub-sep">·</span>
-<span>[arXiv](https://arxiv.org/abs/2507.05627)</span></div>
 </div>
 </li>
 <li class="pub-item" id="tactile-reactive-grasp">
@@ -185,7 +259,7 @@ pagetitle: "Publications – RoPhi Lab"
 <span class="pub-sep">·</span>
 <span>[Video](https://www.youtube.com/watch?v=7G3sTqiX9Ww)</span>
 <span class="pub-sep">·</span>
-<span>[Poster]((https://drive.google.com/file/d/1qrjK-9wwKMx90IfR_wqQvti4uV4lP9VC/view))</span>
+<span>[Poster](https://drive.google.com/file/d/1qrjK-9wwKMx90IfR_wqQvti4uV4lP9VC/view)</span>
 <span class="pub-sep">·</span>
 <span>[OpenReview](https://openreview.net/forum?id=M0JtsLuhEE)</span></div>
 </div>
@@ -196,7 +270,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-title">EquiGraspFlow: SE(3)-Equivariant 6-DoF Grasp Pose Generative Flows</div>
 <div class="pub-venue">Conference on Robot Learning (CoRL), 2024</div>
 <div class="pub-authors">Byeongdo Lim&#42;, Jongmin Kim&#42;, Jihwan Kim, Yonghyeon Lee, Frank C. Park</div>
-<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+<div class="pub-links pub-links--todo"><span>[Project page](https://equigraspflow.github.io/)</span><span class="pub-sep">·</span><span>[Code](https://github.com/bdlim99/EquiGraspFlow)</span><span class="pub-sep">·</span><span>[Video](https://youtu.be/fxOveMwugo4)</span><span class="pub-sep">·</span><span>[OpenReview](https://openreview.net/forum?id=5lSkn5v4LK)</span></div>
 </div>
 </li>
 <li class="pub-item" id="mmp++">
@@ -205,7 +279,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-title">MMP++: Motion Manifold Primitives with Parametric Curve Models</div>
 <div class="pub-venue">IEEE Transactions on Robotics (T-RO), 2024</div>
 <div class="pub-authors">Yonghyeon Lee</div>
-<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>IEEE Xplore</span></div>
+<div class="pub-links pub-links--todo"><span>[Project page](https://mmpplusplus.github.io/)</span><span class="pub-sep">·</span><span>[Code](https://github.com/Gabe-YHLee/MMPpp-public)</span><span class="pub-sep">·</span><span>[IEEE Xplore](https://ieeexplore.ieee.org/document/10637485)</span><span class="pub-sep">·</span><span>[arXiv](https://arxiv.org/abs/2310.17072)</span></div>
 </div>
 </li>
 <li class="pub-item" id="ggae">
@@ -214,7 +288,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-title">Graph Geometry-Preserving Autoencoders</div>
 <div class="pub-venue">International Conference on Machine Learning (ICML), 2024</div>
 <div class="pub-authors">Jungbin Lim&#42;, Jihwan Kim&#42;, Yonghyeon Lee, Cheongjae Jang, Frank C. Park</div>
-<div class="pub-links pub-links--todo"><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+<div class="pub-links pub-links--todo"><span>[Proceedings](https://proceedings.mlr.press/v235/lim24a.html)</span><span class="pub-sep">·</span><span>[Code](https://github.com/JungbinLim/GGAE-public)</span><span class="pub-sep">·</span><span>[OpenReview](https://openreview.net/forum?id=acTLXagzqd)</span></div>
 </div>
 </li>
 </ul>
@@ -228,7 +302,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-title">NFL: Normal Field Learning for 6-DoF Grasping of Transparent Objects</div>
 <div class="pub-venue">IEEE Robotics and Automation Letters (RA-L), 2023</div>
 <div class="pub-authors">Junho Lee, Sang Min Kim, Yonghyeon Lee, Young Min Kim</div>
-<div class="pub-links pub-links--todo"><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Poster</span></div>
+<div class="pub-links pub-links--todo"><span>[Project page](https://twjhlee.github.io/projects/NFL)</span><span class="pub-sep">·</span><span>[PDF](https://3d.snu.ac.kr/assets/NFL/NFL_RAL_final.pdf)</span></div>
 </div>
 </li>
 <li class="pub-item">
@@ -237,7 +311,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-title">A Geometric Perspective on Autoencoders</div>
 <div class="pub-venue">arXiv, 2023 (summary of Ph.D. thesis)</div>
 <div class="pub-authors">Yonghyeon Lee</div>
-<div class="pub-links pub-links--todo"><span>arXiv</span></div>
+<div class="pub-links pub-links--todo"><span>[arXiv](https://arxiv.org/abs/2309.08247)</span></div>
 </div>
 </li>
 <li class="pub-item" id="emmp">
@@ -246,7 +320,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-title">Equivariant Motion Manifold Primitives</div>
 <div class="pub-venue">Conference on Robot Learning (CoRL), 2023</div>
 <div class="pub-authors">Byeongho Lee&#42;, Yonghyeon Lee&#42;, Seungyeon Kim, Minjun Son, Frank C. Park</div>
-<div class="pub-links pub-links--todo"><span>Project page</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+<div class="pub-links pub-links--todo"><span>[Proceedings](https://proceedings.mlr.press/v229/lee23a.html)</span><span class="pub-sep">·</span><span>[Code](https://github.com/dlsfldl/EMMP-public)</span><span class="pub-sep">·</span><span>[Video](https://www.youtube.com/watch?v=asoUlHj2vnQ)</span><span class="pub-sep">·</span><span>[Poster](https://drive.google.com/file/d/15SQA2kgzfmX0FUxf4fI7EXxQwI2OBQkN/view)</span><span class="pub-sep">·</span><span>[OpenReview](https://openreview.net/forum?id=psyvs5wdAV)</span></div>
 </div>
 </li>
 <li class="pub-item">
@@ -264,7 +338,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-title">On Explicit Curvature Regularization in Deep Generative Models</div>
 <div class="pub-venue">TAG-ML Workshop, ICML 2023</div>
 <div class="pub-authors">Yonghyeon Lee, Frank C. Park</div>
-<div class="pub-links pub-links--todo"><span>arXiv</span><span class="pub-sep">·</span><span>OpenReview</span><span class="pub-sep">·</span><span>Poster</span></div>
+<div class="pub-links pub-links--todo"><span>[Proceedings](https://proceedings.mlr.press/v221/lee23a.html)</span><span class="pub-sep">·</span><span>[PDF](https://proceedings.mlr.press/v221/lee23a/lee23a.pdf)</span></div>
 </div>
 </li>
 <li class="pub-item">
@@ -305,7 +379,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-title">DSQNet: A Deformable Model-Based Supervised Learning Algorithm for Grasping Unknown Occluded Objects</div>
 <div class="pub-venue">IEEE Transactions on Automation Science and Engineering (T-ASE), 2022</div>
 <div class="pub-authors">Seungyeon Kim&#42;, Taegyun Ahn&#42;, Yonghyeon Lee, Jihwan Kim, Michael Yu Wang, Frank C. Park</div>
-<div class="pub-links pub-links--todo"><span>Code</span><span class="pub-sep">·</span><span>IEEE Xplore</span></div>
+<div class="pub-links pub-links--todo"><span>[IEEE Xplore](https://ieeexplore.ieee.org/document/9802912)</span></div>
 </div>
 </li>
 <li class="pub-item" id="smf">
@@ -314,7 +388,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-title">A Statistical Manifold Framework for Point Cloud Data</div>
 <div class="pub-venue">International Conference on Machine Learning (ICML), 2022</div>
 <div class="pub-authors">Yonghyeon Lee&#42;, Seungyeon Kim&#42;, Jinwon Choi, Frank C. Park</div>
-<div class="pub-links pub-links--todo"><span>PDF</span><span class="pub-sep">·</span><span>Proceedings</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Slides</span><span class="pub-sep">·</span><span>Poster</span></div>
+<div class="pub-links pub-links--todo"><span>[Proceedings](https://proceedings.mlr.press/v162/lee22d.html)</span><span class="pub-sep">·</span><span>[Code](https://github.com/seungyeon-k/SMF-public)</span></div>
 </div>
 </li>
 <li class="pub-item" id="irae">
@@ -337,7 +411,7 @@ pagetitle: "Publications – RoPhi Lab"
 <div class="pub-title">Neighborhood Reconstructing Autoencoders</div>
 <div class="pub-venue">Conference on Neural Information Processing Systems (NeurIPS), 2021</div>
 <div class="pub-authors">Yonghyeon Lee, Hyukjun Kwon, Frank C. Park</div>
-<div class="pub-links pub-links--todo"><span>PDF</span><span class="pub-sep">·</span><span>Proceedings</span><span class="pub-sep">·</span><span>Code</span><span class="pub-sep">·</span><span>Video</span><span class="pub-sep">·</span><span>Slides</span><span class="pub-sep">·</span><span>Poster</span><span class="pub-sep">·</span><span>OpenReview</span></div>
+<div class="pub-links pub-links--todo"><span>[OpenReview](https://openreview.net/forum?id=_kaH2bAI3O)</span><span class="pub-sep">·</span><span>[Code](https://github.com/Gabe-YHLee/NRAE-public)</span><span class="pub-sep">·</span><span>[Slides](https://neurips.cc/media/neurips-2021/Slides/27723.pdf)</span></div>
 </div>
 </li>
 <li class="pub-item">
