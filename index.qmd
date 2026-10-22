@@ -30,7 +30,11 @@ Also written **RoPhi** · pronounced *ROH-fai*
 :::
 
 ::: {.hero-meta}
-Principal Investigator: [Yonghyeon Lee](people.qmd#principal-investigator)  
+Principal Investigator: [Yonghyeon Lee](people.qmd#principal-investigator)
+:::
+
+::: {.hero-areas}
+[Research areas:]{.hero-areas-label} *Robot learning, dexterous and contact-rich manipulation, reactive planning and control, real-time perception for control*
 :::
 
 :::

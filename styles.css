@@ -97,7 +97,29 @@
 }
 
 .hero-meta p {
-  margin: 0.15rem 0 0;
+  margin: 0.35rem 0 0;
+  line-height: 1.5;
+}
+
+.hero-areas {
+  margin-top: 0.45rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.hero-areas p {
+  margin: 0;
+}
+
+.hero-areas-label {
+  font-style: normal;
+  font-weight: 600;
+  color: var(--bs-body-color);
+}
+
+.hero-areas em {
+  color: var(--bs-body-color);
+  font-style: italic;
 }
 
 /* Spacing between Quarto column layouts */
