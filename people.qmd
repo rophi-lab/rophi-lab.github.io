@@ -43,6 +43,92 @@ pagetitle: "People – RoPhi Lab"
 :::
 :::
 
+## Research Interns {#research-interns}
+
+::: {.intern-grid}
+
+::: {.intern-card}
+::: {.intern-photo}
+![](assets/people/glen-jaegal.jpg){fig-alt="Portrait of Glen Jaegal"}
+:::
+::: {.intern-bio}
+### Glen Jaegal
+
+*Research Intern*
+
+::: {.intern-program}
+B.S. at Yonsei EE
+:::
+
+::: {.intern-interests}
+**Research interests:** Dexterous Manipulation, Vision-Language-Action (VLA) Models, Reinforcement Learning
+:::
+:::
+:::
+
+::: {.intern-card}
+::: {.intern-photo}
+![](assets/people/hyunyoung-cho.jpg){fig-alt="Portrait of Hyunyoung Cho"}
+:::
+::: {.intern-bio}
+### Hyunyoung Cho
+
+*Research Intern*
+
+::: {.intern-program}
+B.S. at SKKU AI
+:::
+
+::: {.intern-interests}
+**Research interests:** Dexterous Manipulation, Efficient Robot Learning
+:::
+
+[airman-and.github.io](https://airman-and.github.io)
+:::
+:::
+
+::: {.intern-card}
+::: {.intern-photo}
+![](assets/people/jinha-choi.jpg){fig-alt="Portrait of Jinha Choi"}
+:::
+::: {.intern-bio}
+### Jinha Choi
+
+*Research Intern*
+
+::: {.intern-program}
+B.S. at Yonsei CS
+:::
+
+::: {.intern-interests}
+**Research interests:** Reactive Grasping, Dexterous Manipulation, Humanoid Learning, Reinforcement Learning
+:::
+
+[jinhac174.github.io](https://jinhac174.github.io)
+:::
+:::
+
+::: {.intern-card}
+::: {.intern-photo}
+![](assets/people/jinwoo-shin.jpg){fig-alt="Portrait of Jinwoo Shin"}
+:::
+::: {.intern-bio}
+### Jinwoo Shin
+
+*Research Intern*
+
+::: {.intern-program}
+B.S. at Yonsei ME
+:::
+
+::: {.intern-interests}
+**Research interests:** Reactive Grasping, Dexterous Manipulation
+:::
+:::
+:::
+
+:::
+
 <!--
 ## Ph.D. Students
 
