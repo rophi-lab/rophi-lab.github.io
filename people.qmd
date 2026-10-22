@@ -129,6 +129,42 @@ B.S. at Yonsei ME
 
 :::
 
+## Undergraduate Student Interns {#undergraduate-student-interns}
+
+::: {.student-list}
+
+::: {.student-row}
+**Hyunjune Seo**
+
+B.S. at Yonsei
+:::
+
+::: {.student-row}
+**Jinwoo Suh**
+
+B.S. at Yonsei
+:::
+
+::: {.student-row}
+**Jungwoo Kim**
+
+B.S. at Yonsei
+:::
+
+::: {.student-row}
+**Seungmin Jeon**
+
+B.S. at Yonsei
+:::
+
+::: {.student-row}
+**Sewon Kim**
+
+B.S. at UOS
+:::
+
+:::
+
 <!--
 ## Ph.D. Students
 
