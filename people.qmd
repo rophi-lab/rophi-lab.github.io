@@ -68,27 +68,6 @@ B.S. at Yonsei EE
 
 ::: {.intern-card}
 ::: {.intern-photo}
-![](assets/people/hyunyoung-cho.jpg){fig-alt="Portrait of Hyunyoung Cho"}
-:::
-::: {.intern-bio}
-### Hyunyoung Cho
-
-*Research Intern*
-
-::: {.intern-program}
-B.S. at SKKU AI
-:::
-
-::: {.intern-interests}
-**Research interests:** Dexterous Manipulation, Efficient Robot Learning
-:::
-
-[airman-and.github.io](https://airman-and.github.io)
-:::
-:::
-
-::: {.intern-card}
-::: {.intern-photo}
 ![](assets/people/jinha-choi.jpg){fig-alt="Portrait of Jinha Choi"}
 :::
 ::: {.intern-bio}
@@ -137,6 +116,12 @@ B.S. at Yonsei ME
 **Hyunjune Seo**
 
 B.S. at Yonsei
+:::
+
+::: {.student-row}
+**Hyunyoung Cho**
+
+B.S. at SKKU AI
 :::
 
 ::: {.student-row}
