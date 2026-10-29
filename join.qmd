@@ -83,4 +83,4 @@ the essential foundations we expect you to be comfortable with before joining.
 ### Optimization
 
 - **Convex Optimization** — Stanford EE364A ([lecture series](https://youtu.be/kV1ru-Inzl4))
-- **Optimal Control**
+- **Optimal Control** — [lecture notes](https://arxiv.org/abs/2610.32538)
